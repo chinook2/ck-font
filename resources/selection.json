@@ -15,15 +15,15 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 1,
+				"order": 26,
 				"id": 1,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57345,
 				"name": "selects",
 				"ligatures": ""
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 0
 		},
 		{
@@ -41,14 +41,14 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 2,
+				"order": 27,
 				"id": 8,
 				"name": "select-box",
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57346
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 1
 		},
 		{
@@ -66,14 +66,14 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 3,
+				"order": 34,
 				"id": 7,
 				"name": "select-circle",
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57347
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 2
 		},
 		{
@@ -91,14 +91,14 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 4,
+				"order": 33,
 				"id": 6,
 				"name": "select-point",
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57348
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 3
 		},
 		{
@@ -119,14 +119,14 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 5,
+				"order": 32,
 				"id": 4,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57360,
 				"name": "measures"
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 4
 		},
 		{
@@ -143,14 +143,14 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 6,
+				"order": 31,
 				"id": 3,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57361,
 				"name": "measure-length"
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 5
 		},
 		{
@@ -167,15 +167,15 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 7,
+				"order": 30,
 				"id": 2,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57362,
 				"name": "measure-area",
 				"ligatures": ""
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 6
 		},
 		{
@@ -193,20 +193,48 @@
 			},
 			"attrs": [],
 			"properties": {
-				"order": 8,
+				"order": 29,
 				"id": 5,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 57376,
 				"name": "gps"
 			},
-			"setIdx": 1,
-			"setId": 4,
+			"setIdx": 0,
+			"setId": 1,
 			"iconIdx": 7
+		},
+		{
+			"icon": {
+				"paths": [
+					"M544.010 1024.004c-2.296 0-4.622-0.25-6.94-0.764-14.648-3.25-25.070-16.238-25.070-31.24v-480h-480c-15.002 0-27.992-10.422-31.24-25.070-3.25-14.646 4.114-29.584 17.708-35.928l960-448c12.196-5.688 26.644-3.144 36.16 6.372 9.516 9.514 12.060 23.966 6.372 36.16l-448 960c-5.342 11.44-16.772 18.47-28.99 18.47zM176.242 448h367.758c17.674 0 32 14.328 32 32v367.758l349.79-749.546-749.548 349.788z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"compass",
+					"direction",
+					"location"
+				],
+				"defaultCode": 59721,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"ligatures": "compass, direction",
+				"name": "compass",
+				"id": 9,
+				"order": 25,
+				"prevSize": 32,
+				"code": 57392
+			},
+			"setIdx": 0,
+			"setId": 1,
+			"iconIdx": 8
 		}
 	],
 	"height": 1024,
 	"metadata": {
-		"name": "CkFont10"
+		"name": "CkFont11"
 	},
 	"preferences": {
 		"showGlyphs": true,
@@ -216,9 +244,9 @@
 		"fontPref": {
 			"prefix": "ck-",
 			"metadata": {
-				"fontFamily": "CkFont10",
+				"fontFamily": "CkFont11",
 				"majorVersion": 1,
-				"minorVersion": 0,
+				"minorVersion": 1,
 				"description": "From icomoon & flaticons"
 			},
 			"metrics": {

@@ -10,7 +10,7 @@
  */
 
 $ck-font-path: get-resource-path('fonts');
-$ck-font-name: CkFont10;
+$ck-font-name: CkFont11;
 
 // FONT PATH
 // -------------------------
@@ -77,6 +77,9 @@ $ck-font-name: CkFont10;
 }
 .ck-gps:before {
     content: "\e020";
+}
+.ck-compass:before {
+    content: "\e030";
 }
 // -------------------------
 
