@@ -9,7 +9,7 @@
      *
      *    "alternateName": [],
      */
-     
+
      /**
       * The namespace of this package.
       *
@@ -194,7 +194,7 @@
      */
     "overrides": "${package.dir}/overrides",
 
-    
+
     /**
      * The framework this package will use (i.e., "ext" or "touch").
      * This is only needed if the built package will be used by a non-Cmd application.

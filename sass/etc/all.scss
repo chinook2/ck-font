@@ -1,16 +1,17 @@
 /*
  * Ck-font : font icons for Chinook Client ck-viewer
  * Created with https://icomoon.io/app/
- * 
+ *
  * Import project with "selection.json" file, add icons, and generate font (change version number CkFont11, CkFont12 ...)
  *
- * Update : 
+ * Update :
  *  change $ck-font-name
- *  copy/paste  Icon Glyph from style.css 
+ *  copy/paste  Icon Glyph from style.css
  */
 
-$ck-font-path: get-resource-path('fonts');
-$ck-font-name: CkFont11;
+$ck-font-path: 'ck-font/fonts' ;
+// get-resource-path('fonts');
+$ck-font-name: CkFont12;
 
 // FONT PATH
 // -------------------------
@@ -30,7 +31,7 @@ $ck-font-name: CkFont11;
 .ckfont {
   display: inline-block;
   font: normal normal normal 14px/1 #{$ck-font-name};
-  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  font-size: 16px; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,6 +81,27 @@ $ck-font-name: CkFont11;
 }
 .ck-compass:before {
     content: "\e030";
+}
+.ck-stack:before {
+    content: "\e040";
+}
+.ck-search:before {
+    content: "\e050";
+}
+.ck-zoom-in:before {
+    content: "\e051";
+}
+.ck-zoom-out:before {
+    content: "\e052";
+}
+.ck-enlarge:before {
+    content: "\e053";
+}
+.ck-shrink:before {
+    content: "\e054";
+}
+.ck-eraser:before {
+    content: "\e015";
 }
 // -------------------------
 

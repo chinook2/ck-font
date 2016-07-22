@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'CkFont11';
-    src:    url('fonts/CkFont11.eot?8nbgun');
-    src:    url('fonts/CkFont11.eot?8nbgun#iefix') format('embedded-opentype'),
-        url('fonts/CkFont11.ttf?8nbgun') format('truetype'),
-        url('fonts/CkFont11.woff?8nbgun') format('woff'),
-        url('fonts/CkFont11.svg?8nbgun#CkFont11') format('svg');
+    font-family: 'CkFont12';
+    src:    url('fonts/CkFont12.eot?giot5d');
+    src:    url('fonts/CkFont12.eot?giot5d#iefix') format('embedded-opentype'),
+        url('fonts/CkFont12.ttf?giot5d') format('truetype'),
+        url('fonts/CkFont12.woff?giot5d') format('woff'),
+        url('fonts/CkFont12.svg?giot5d#CkFont12') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 [class^="ck-"], [class*=" ck-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'CkFont11' !important;
+    font-family: 'CkFont12' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -60,5 +60,26 @@
 }
 .ck-compass:before {
     content: "\e030";
+}
+.ck-stack:before {
+    content: "\e040";
+}
+.ck-search:before {
+    content: "\e050";
+}
+.ck-zoom-in:before {
+    content: "\e051";
+}
+.ck-zoom-out:before {
+    content: "\e052";
+}
+.ck-enlarge:before {
+    content: "\e053";
+}
+.ck-shrink:before {
+    content: "\e054";
+}
+.ck-eraser:before {
+    content: "\e015";
 }
 

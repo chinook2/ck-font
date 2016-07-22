@@ -27,6 +27,18 @@
         icons = {
             'compass': '&#xe030;',
             'direction': '&#xe030;',
+            'stack': '&#xe040;',
+            'layers': '&#xe040;',
+            'search': '&#xe050;',
+            'magnifier': '&#xe050;',
+            'zoom-in': '&#xe051;',
+            'magnifier2': '&#xe051;',
+            'zoom-out': '&#xe052;',
+            'magnifier3': '&#xe052;',
+            'enlarge': '&#xe053;',
+            'expand': '&#xe053;',
+            'shrink': '&#xe054;',
+            'collapse': '&#xe054;',
           '0': 0
         };
         delete icons['0'];
