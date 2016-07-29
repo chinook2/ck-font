@@ -54,6 +54,12 @@ $ck-font-name: CkFont11;
 
 // Icon Glyph
 // -------------------------
+.ck-undo2:before {
+  content: "\e967";
+}
+.ck-redo2:before {
+  content: "\e968";
+}
 .ck-selects:before {
     content: "\e001";
 }

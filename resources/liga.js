@@ -25,8 +25,10 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
-            'compass': '&#xe030;',
-            'direction': '&#xe030;',
+            'undo2': '&#xe967;',
+            'left': '&#xe967;',
+            'redo2': '&#xe968;',
+            'right': '&#xe968;',
           '0': 0
         };
         delete icons['0'];
