@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont13';
-  src:  url('fonts/CkFont13.eot?s3mxso');
-  src:  url('fonts/CkFont13.eot?s3mxso#iefix') format('embedded-opentype'),
-    url('fonts/CkFont13.ttf?s3mxso') format('truetype'),
-    url('fonts/CkFont13.woff?s3mxso') format('woff'),
-    url('fonts/CkFont13.svg?s3mxso#CkFont13') format('svg');
+  src:  url('fonts/CkFont13.eot?bbzv1u');
+  src:  url('fonts/CkFont13.eot?bbzv1u#iefix') format('embedded-opentype'),
+    url('fonts/CkFont13.ttf?bbzv1u') format('truetype'),
+    url('fonts/CkFont13.woff?bbzv1u') format('woff'),
+    url('fonts/CkFont13.svg?bbzv1u#CkFont13') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-zoom:before {
+  content: "\e914";
+}
+.ck-zoom-flip:before {
+  content: "\e915";
+}
+.ck-edit:before {
+  content: "\e912";
+}
+.ck-close:before {
+  content: "\e913";
+}
+.ck-remove:before {
+  content: "\e913";
+}
 .ck-right:before {
   content: "\e90e";
 }

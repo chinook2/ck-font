@@ -55,7 +55,21 @@ $ck-font-name: CkFont13;
 
 // Icon Glyph
 // -------------------------
-
+.ck-zoom:before {
+  content: "\e914";
+}
+.ck-zoom-flip:before {
+  content: "\e915";
+}
+.ck-edit:before {
+  content: "\e912";
+}
+.ck-close:before {
+  content: "\e913";
+}
+.ck-remove:before {
+  content: "\e913";
+}
 .ck-right:before {
   content: "\e90e";
 }
@@ -258,4 +272,22 @@ $ck-font-name: CkFont13;
 // The "x-ck" class should be used in Ext JS applications
 .x-ckfont:before {
     font-family: '#{$ck-font-name}';
+}
+
+// For Ext5 with classic PointChange
+// TODO: check in build mode
+.ckZoom {
+    background-image: url('ck-font/img/zoom-flip.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+.ckClose {
+    background-image: url('ck-font/img/close.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+.ckEdit {
+    background-image: url('ck-font/img/edit.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
 }
