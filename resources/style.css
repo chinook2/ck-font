@@ -9,29 +9,31 @@
   font-style: normal;
 }
 
-[class^="ck-"], [class*=" ck-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont13' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ckfont {
+    display: inline-block;
+    font: normal normal normal 14px/1 CkFont13;
+    font-size: 16px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0)
+}
+.ckfont-lg {
+    font-size: 1.333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+.ckfont-2x {
+    font-size: 2em
+}
+.ckfont-3x {
+    font-size: 3em
+}
+.ckfont-4x {
+    font-size: 4em
+}
+.ckfont-5x {
+    font-size: 5em
 }
 
 .ck-zoom:before {
@@ -245,3 +247,23 @@
   content: "\e015";
 }
 
+.x-ckfont:before {
+    font-family: "CkFont13"
+}
+
+
+.ckZoom {
+    background-image: url("img/zoom-flip.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckClose {
+    background-image: url("img/close.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckEdit {
+    background-image: url("img/edit.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
