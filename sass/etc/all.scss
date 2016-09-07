@@ -54,6 +54,10 @@ $ck-font-name: CkFont11;
 
 // Icon Glyph
 // -------------------------
+
+.ck-edit-geom:before {
+  content: "\e900";
+}
 .ck-undo2:before {
   content: "\e967";
 }
@@ -61,31 +65,28 @@ $ck-font-name: CkFont11;
   content: "\e968";
 }
 .ck-selects:before {
-    content: "\e001";
+  content: "\e001";
 }
 .ck-select-box:before {
-    content: "\e002";
+  content: "\e002";
 }
 .ck-select-circle:before {
-    content: "\e003";
+  content: "\e003";
 }
 .ck-select-point:before {
-    content: "\e004";
+  content: "\e004";
 }
 .ck-measures:before {
-    content: "\e010";
+  content: "\e010";
 }
 .ck-measure-length:before {
-    content: "\e011";
+  content: "\e011";
 }
 .ck-measure-area:before {
-    content: "\e012";
+  content: "\e012";
 }
 .ck-gps:before {
-    content: "\e020";
-}
-.ck-compass:before {
-    content: "\e030";
+  content: "\e020";
 }
 // -------------------------
 

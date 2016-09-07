@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont10';
-  src:  url('fonts/CkFont10.eot?ph9t2f');
-  src:  url('fonts/CkFont10.eot?ph9t2f#iefix') format('embedded-opentype'),
-    url('fonts/CkFont10.ttf?ph9t2f') format('truetype'),
-    url('fonts/CkFont10.woff?ph9t2f') format('woff'),
-    url('fonts/CkFont10.svg?ph9t2f#CkFont10') format('svg');
+  font-family: 'CkFont11';
+  src:  url('fonts/CkFont11.eot?y9cppy');
+  src:  url('fonts/CkFont11.eot?y9cppy#iefix') format('embedded-opentype'),
+    url('fonts/CkFont11.ttf?y9cppy') format('truetype'),
+    url('fonts/CkFont11.woff?y9cppy') format('woff'),
+    url('fonts/CkFont11.svg?y9cppy#CkFont11') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="ck-"], [class*=" ck-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont10' !important;
+  font-family: 'CkFont11' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -34,6 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-edit-geom:before {
+  content: "\e900";
+}
 .ck-undo2:before {
   content: "\e967";
 }

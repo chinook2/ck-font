@@ -4,6 +4,38 @@
     {
       "icon": {
         "paths": [
+          "M464.938 457.077l142.687 524.573 115.509-181.855 217.427 223.821 74.74-76.945-224.222-223.815 183.454-111.904z",
+          "M514.616 823.338l-206.125 4.278v-70.137c0-21.041-20.441-42.082-40.881-42.082h-68.135v-406.794h68.135c20.441 0 40.881-21.041 40.881-42.082v-70.137h395.179v70.137c0 21.041 20.441 42.082 40.881 42.082h68.135v206.42h81.761v-206.42h68.135c20.441 0 40.881-21.041 40.881-42.082v-224.438c0-21.041-20.441-42.082-40.881-42.082h-218.030c-20.441 0-40.881 21.041-40.881 42.082v70.137h-395.179v-70.137c0-21.041-20.441-42.082-40.881-42.082h-218.030c-20.441 0-40.881 21.041-40.881 42.082v224.438c0 21.041 20.441 42.082 40.881 42.082h68.135v406.794h-68.135c-20.441 0-40.881 21.041-40.881 42.082v224.438c0 21.041 20.441 42.082 40.881 42.082h218.030c20.441 0 40.881-21.041 40.881-42.082v-70.137h206.125zM785.432 84.144h136.269v140.274h-136.269zM83.648 224.417v-140.274h136.269v140.274zM83.648 939.814v-140.274h136.269v140.274z"
+        ],
+        "attrs": [
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "edit-geom"
+        ]
+      },
+      "attrs": [
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 20,
+        "id": 493,
+        "name": "edit-geom",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M761.862 1024c113.726-206.032 132.888-520.306-313.862-509.824v253.824l-384-384 384-384v248.372c534.962-13.942 594.57 472.214 313.862 775.628z"
         ],
         "attrs": [],
@@ -22,13 +54,13 @@
         "ligatures": "undo2, left",
         "name": "undo2",
         "id": 491,
-        "order": 9,
+        "order": 21,
         "prevSize": 32,
         "code": 59751
       },
-      "setIdx": 0,
-      "setId": 2,
-      "iconIdx": 0
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -51,13 +83,13 @@
         "ligatures": "redo2, right",
         "name": "redo2",
         "id": 492,
-        "order": 10,
+        "order": 22,
         "prevSize": 32,
         "code": 59752
       },
-      "setIdx": 0,
-      "setId": 2,
-      "iconIdx": 1
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -73,7 +105,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 11,
+        "order": 23,
         "id": 1,
         "prevSize": 32,
         "code": 57345,
@@ -82,7 +114,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 0
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -99,7 +131,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 12,
+        "order": 24,
         "id": 8,
         "name": "select-box",
         "prevSize": 32,
@@ -107,7 +139,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 1
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -124,7 +156,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 13,
+        "order": 25,
         "id": 7,
         "name": "select-circle",
         "prevSize": 32,
@@ -132,7 +164,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 2
+      "iconIdx": 5
     },
     {
       "icon": {
@@ -149,7 +181,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 14,
+        "order": 26,
         "id": 6,
         "name": "select-point",
         "prevSize": 32,
@@ -157,7 +189,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 3
+      "iconIdx": 6
     },
     {
       "icon": {
@@ -177,7 +209,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 15,
+        "order": 27,
         "id": 4,
         "prevSize": 32,
         "code": 57360,
@@ -185,7 +217,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 4
+      "iconIdx": 7
     },
     {
       "icon": {
@@ -201,7 +233,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 17,
+        "order": 28,
         "id": 3,
         "prevSize": 32,
         "code": 57361,
@@ -209,7 +241,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 5
+      "iconIdx": 8
     },
     {
       "icon": {
@@ -225,7 +257,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 16,
+        "order": 29,
         "id": 2,
         "prevSize": 32,
         "code": 57362,
@@ -234,7 +266,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 6
+      "iconIdx": 9
     },
     {
       "icon": {
@@ -251,7 +283,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 18,
+        "order": 30,
         "id": 5,
         "prevSize": 32,
         "code": 57376,
@@ -259,12 +291,12 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 7
+      "iconIdx": 10
     }
   ],
   "height": 1024,
   "metadata": {
-    "name": "CkFont10"
+    "name": "CkFont11"
   },
   "preferences": {
     "showGlyphs": true,
@@ -274,9 +306,9 @@
     "fontPref": {
       "prefix": "ck-",
       "metadata": {
-        "fontFamily": "CkFont10",
+        "fontFamily": "CkFont11",
         "majorVersion": 1,
-        "minorVersion": 0,
+        "minorVersion": 1,
         "description": "From icomoon & flaticons"
       },
       "metrics": {
