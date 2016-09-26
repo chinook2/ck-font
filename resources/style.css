@@ -1,39 +1,37 @@
 @font-face {
   font-family: 'CkFont13';
-  src:  url('fonts/CkFont13.eot?bbzv1u');
-  src:  url('fonts/CkFont13.eot?bbzv1u#iefix') format('embedded-opentype'),
-    url('fonts/CkFont13.ttf?bbzv1u') format('truetype'),
-    url('fonts/CkFont13.woff?bbzv1u') format('woff'),
-    url('fonts/CkFont13.svg?bbzv1u#CkFont13') format('svg');
+  src:  url('fonts/CkFont13.eot?sx5zny');
+  src:  url('fonts/CkFont13.eot?sx5zny#iefix') format('embedded-opentype'),
+    url('fonts/CkFont13.ttf?sx5zny') format('truetype'),
+    url('fonts/CkFont13.woff?sx5zny') format('woff'),
+    url('fonts/CkFont13.svg?sx5zny#CkFont13') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.ckfont {
-    display: inline-block;
-    font: normal normal normal 14px/1 CkFont13;
-    font-size: 16px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0)
-}
-.ckfont-lg {
-    font-size: 1.333em;
-    line-height: .75em;
-    vertical-align: -15%
-}
-.ckfont-2x {
-    font-size: 2em
-}
-.ckfont-3x {
-    font-size: 3em
-}
-.ckfont-4x {
-    font-size: 4em
-}
-.ckfont-5x {
-    font-size: 5em
+[class^="ck-"], [class*=" ck-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CkFont13' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .ck-zoom:before {
@@ -246,24 +244,10 @@
 .ck-eraser:before {
   content: "\e015";
 }
-
-.x-ckfont:before {
-    font-family: "CkFont13"
+.ck-draw:before {
+  content: "\e916";
+}
+.ck-draw-polygon:before {
+  content: "\e917";
 }
 
-
-.ckZoom {
-    background-image: url("img/zoom-flip.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckClose {
-    background-image: url("img/close.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckEdit {
-    background-image: url("img/edit.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}

@@ -265,6 +265,12 @@ $ck-font-name: CkFont13;
 .ck-eraser:before {
   content: "\e015";
 }
+.ck-draw:before {
+  content: "\e916";
+}
+.ck-draw-polygon:before {
+  content: "\e917";
+}
 // -------------------------
 
 
