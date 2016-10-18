@@ -21,7 +21,7 @@
         {}
       ],
       "properties": {
-        "order": 222,
+        "order": 407,
         "id": 51,
         "prevSize": 32,
         "code": 59668,
@@ -51,7 +51,7 @@
         {}
       ],
       "properties": {
-        "order": 223,
+        "order": 408,
         "id": 50,
         "prevSize": 32,
         "code": 59669,
@@ -82,7 +82,7 @@
         {}
       ],
       "properties": {
-        "order": 224,
+        "order": 409,
         "id": 46,
         "name": "edit",
         "prevSize": 32,
@@ -114,7 +114,7 @@
         {}
       ],
       "properties": {
-        "order": 225,
+        "order": 410,
         "id": 47,
         "name": "close, remove",
         "prevSize": 32,
@@ -145,7 +145,7 @@
         {}
       ],
       "properties": {
-        "order": 226,
+        "order": 411,
         "id": 42,
         "name": "right, next",
         "prevSize": 32,
@@ -176,7 +176,7 @@
         {}
       ],
       "properties": {
-        "order": 227,
+        "order": 412,
         "id": 43,
         "name": "redo",
         "prevSize": 32,
@@ -207,7 +207,7 @@
         {}
       ],
       "properties": {
-        "order": 228,
+        "order": 413,
         "id": 44,
         "name": "left, previous",
         "prevSize": 32,
@@ -238,7 +238,7 @@
         {}
       ],
       "properties": {
-        "order": 229,
+        "order": 414,
         "id": 45,
         "name": "undo",
         "prevSize": 32,
@@ -268,7 +268,7 @@
         {}
       ],
       "properties": {
-        "order": 230,
+        "order": 415,
         "id": 35,
         "name": "print",
         "prevSize": 32,
@@ -298,7 +298,7 @@
         {}
       ],
       "properties": {
-        "order": 231,
+        "order": 416,
         "id": 36,
         "name": "street-view",
         "prevSize": 32,
@@ -330,7 +330,7 @@
         {}
       ],
       "properties": {
-        "order": 232,
+        "order": 417,
         "id": 37,
         "name": "download, save, store, arrow",
         "prevSize": 32,
@@ -364,7 +364,7 @@
         {}
       ],
       "properties": {
-        "order": 233,
+        "order": 418,
         "id": 38,
         "name": "box-add, box, download2, storage, inbox, archive",
         "prevSize": 32,
@@ -407,7 +407,7 @@
         {}
       ],
       "properties": {
-        "order": 234,
+        "order": 419,
         "id": 39,
         "name": "file-text, file, document, list, paper, page",
         "prevSize": 32,
@@ -443,7 +443,7 @@
         {}
       ],
       "properties": {
-        "order": 235,
+        "order": 420,
         "id": 40,
         "name": "file-empty, file2, document2, paper2, page2, new, empty, blank",
         "prevSize": 32,
@@ -479,7 +479,7 @@
         {}
       ],
       "properties": {
-        "order": 236,
+        "order": 421,
         "id": 41,
         "name": "info, information",
         "prevSize": 32,
@@ -509,7 +509,7 @@
         {}
       ],
       "properties": {
-        "order": 237,
+        "order": 422,
         "id": 34,
         "name": "home, house",
         "prevSize": 32,
@@ -541,7 +541,7 @@
         {}
       ],
       "properties": {
-        "order": 238,
+        "order": 423,
         "id": 33,
         "prevSize": 32,
         "code": 59649,
@@ -589,7 +589,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 239,
+        "order": 424,
         "id": 21,
         "name": "add_coordinates",
         "prevSize": 32,
@@ -634,7 +634,7 @@
         {}
       ],
       "properties": {
-        "order": 240,
+        "order": 425,
         "id": 22,
         "name": "add_vertex",
         "prevSize": 32,
@@ -670,7 +670,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 241,
+        "order": 426,
         "id": 23,
         "name": "delete_parcel",
         "prevSize": 32,
@@ -712,7 +712,7 @@
         {}
       ],
       "properties": {
-        "order": 242,
+        "order": 427,
         "id": 24,
         "name": "delete_vertex",
         "prevSize": 32,
@@ -803,7 +803,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 243,
+        "order": 428,
         "id": 25,
         "name": "delete_working_area",
         "prevSize": 32,
@@ -863,7 +863,7 @@
         {}
       ],
       "properties": {
-        "order": 244,
+        "order": 429,
         "id": 26,
         "name": "draw_working_area",
         "prevSize": 32,
@@ -929,7 +929,7 @@
         {}
       ],
       "properties": {
-        "order": 245,
+        "order": 430,
         "id": 27,
         "name": "edit_parcel_forms",
         "prevSize": 32,
@@ -981,7 +981,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 246,
+        "order": 431,
         "id": 28,
         "name": "import_csv",
         "prevSize": 32,
@@ -1053,7 +1053,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 247,
+        "order": 432,
         "id": 29,
         "name": "import_xml",
         "prevSize": 32,
@@ -1113,7 +1113,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 248,
+        "order": 433,
         "id": 30,
         "name": "snap1",
         "prevSize": 32,
@@ -1166,7 +1166,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 249,
+        "order": 434,
         "id": 32,
         "name": "view_topology_report",
         "prevSize": 32,
@@ -1197,7 +1197,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 250,
+        "order": 435,
         "id": 1,
         "prevSize": 32,
         "code": 57345,
@@ -1223,7 +1223,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 251,
+        "order": 436,
         "id": 8,
         "name": "select-box",
         "prevSize": 32,
@@ -1248,7 +1248,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 252,
+        "order": 437,
         "id": 7,
         "name": "select-circle",
         "prevSize": 32,
@@ -1273,7 +1273,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 253,
+        "order": 438,
         "id": 6,
         "name": "select-point",
         "prevSize": 32,
@@ -1300,7 +1300,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 254,
+        "order": 439,
         "id": 20,
         "name": "snap",
         "prevSize": 32,
@@ -1333,7 +1333,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 255,
+        "order": 440,
         "id": 4,
         "prevSize": 32,
         "code": 57360,
@@ -1357,7 +1357,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 256,
+        "order": 441,
         "id": 3,
         "prevSize": 32,
         "code": 57361,
@@ -1381,7 +1381,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 257,
+        "order": 442,
         "id": 2,
         "prevSize": 32,
         "code": 57362,
@@ -1407,7 +1407,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 258,
+        "order": 443,
         "id": 5,
         "prevSize": 32,
         "code": 57376,
@@ -1437,7 +1437,7 @@
         "ligatures": "compass, direction",
         "name": "compass",
         "id": 9,
-        "order": 259,
+        "order": 444,
         "prevSize": 32,
         "code": 57392
       },
@@ -1465,7 +1465,7 @@
         "ligatures": "stack, layers",
         "name": "stack",
         "id": 14,
-        "order": 260,
+        "order": 445,
         "prevSize": 32,
         "code": 57408
       },
@@ -1496,7 +1496,7 @@
         "ligatures": "search, magnifier",
         "name": "search",
         "id": 13,
-        "order": 261,
+        "order": 446,
         "prevSize": 32,
         "code": 57424
       },
@@ -1526,7 +1526,7 @@
         "ligatures": "zoom-in, magnifier2",
         "name": "zoom-in",
         "id": 16,
-        "order": 262,
+        "order": 447,
         "prevSize": 32,
         "code": 57425
       },
@@ -1556,7 +1556,7 @@
         "ligatures": "zoom-out, magnifier3",
         "name": "zoom-out",
         "id": 17,
-        "order": 263,
+        "order": 448,
         "prevSize": 32,
         "code": 57426
       },
@@ -1589,7 +1589,7 @@
         "ligatures": "enlarge, expand",
         "name": "enlarge",
         "id": 18,
-        "order": 264,
+        "order": 449,
         "prevSize": 32,
         "code": 57427
       },
@@ -1622,7 +1622,7 @@
         "ligatures": "shrink, collapse",
         "name": "shrink",
         "id": 19,
-        "order": 265,
+        "order": 450,
         "prevSize": 32,
         "code": 57428
       },
@@ -1649,7 +1649,7 @@
       "properties": {
         "name": "eraser",
         "id": 15,
-        "order": 266,
+        "order": 451,
         "prevSize": 32,
         "code": 57365
       },
@@ -1676,7 +1676,7 @@
         {}
       ],
       "properties": {
-        "order": 267,
+        "order": 452,
         "id": 52,
         "name": "draw",
         "prevSize": 32,
@@ -1708,7 +1708,7 @@
         {}
       ],
       "properties": {
-        "order": 268,
+        "order": 453,
         "id": 53,
         "name": "draw-polygon",
         "prevSize": 32,
@@ -1717,6 +1717,33 @@
       "setIdx": 0,
       "setId": 1,
       "iconIdx": 46
+    },
+    {
+      "icon": {
+        "paths": [
+          "M365.714 768v73.143q0 14.857-10.857 25.714t-25.714 10.857h-292.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h36.571v-219.429h-36.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h219.429q14.857 0 25.714 10.857t10.857 25.714v329.143h36.571q14.857 0 25.714 10.857t10.857 25.714zM292.571 109.714v109.714q0 14.857-10.857 25.714t-25.714 10.857h-146.286q-14.857 0-25.714-10.857t-10.857-25.714v-109.714q0-14.857 10.857-25.714t25.714-10.857h146.286q14.857 0 25.714 10.857t10.857 25.714z"
+        ],
+        "width": 365.71499252319336,
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "info"
+        ],
+        "defaultCode": 61737,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "name": "info2",
+        "id": 54,
+        "order": 454,
+        "prevSize": 32,
+        "code": 61737
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 47
     }
   ],
   "height": 1024,
