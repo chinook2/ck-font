@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont13';
-  src:  url('fonts/CkFont13.eot?sx5zny');
-  src:  url('fonts/CkFont13.eot?sx5zny#iefix') format('embedded-opentype'),
-    url('fonts/CkFont13.ttf?sx5zny') format('truetype'),
-    url('fonts/CkFont13.woff?sx5zny') format('woff'),
-    url('fonts/CkFont13.svg?sx5zny#CkFont13') format('svg');
+  src:  url('fonts/CkFont13.eot?uyqab2');
+  src:  url('fonts/CkFont13.eot?uyqab2#iefix') format('embedded-opentype'),
+    url('fonts/CkFont13.ttf?uyqab2') format('truetype'),
+    url('fonts/CkFont13.woff?uyqab2') format('woff'),
+    url('fonts/CkFont13.svg?uyqab2#CkFont13') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -245,6 +245,9 @@
 .ck-measure-area:before {
   content: "\e012";
 }
+.ck-measure-radius:before {
+  content: "\e013";
+}
 .ck-gps:before {
   content: "\e020";
 }
@@ -281,10 +284,17 @@
 .ck-info2:before {
   content: "\f129";
 }
+.ck-merge:before {
+  content: "\e91c";
+}
+.ck-division:before {
+  content: "\e91d";
+}
 
 
-
-
+/*
+ * Add for InnoLa
+ */
 .x-ckfont:before {
     font-family: "CkFont13"
 }

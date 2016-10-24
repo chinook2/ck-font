@@ -238,6 +238,9 @@ $ck-font-name: CkFont13;
 .ck-measure-area:before {
   content: "\e012";
 }
+.ck-measure-radius:before {
+  content: "\e013";
+}
 .ck-gps:before {
   content: "\e020";
 }
@@ -273,6 +276,12 @@ $ck-font-name: CkFont13;
 }
 .ck-info2:before {
   content: "\f129";
+}
+.ck-merge:before {
+  content: "\e91c";
+}
+.ck-division:before {
+  content: "\e91d";
 }
 // -------------------------
 
