@@ -31,7 +31,7 @@ $ck-font-name: CkFont13;
 .ckfont {
   display: inline-block;
   font: normal normal normal 14px/1 #{$ck-font-name};
-  font-size: 16px; // can't have font-size inherit on line above, so need to override
+  font-size: 24px; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
