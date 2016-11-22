@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont11';
-  src:  url('fonts/CkFont11.eot?rlv1mo');
-  src:  url('fonts/CkFont11.eot?rlv1mo#iefix') format('embedded-opentype'),
-    url('fonts/CkFont11.ttf?rlv1mo') format('truetype'),
-    url('fonts/CkFont11.woff?rlv1mo') format('woff'),
-    url('fonts/CkFont11.svg?rlv1mo#CkFont11') format('svg');
+  src:  url('fonts/CkFont11.eot?c73ia0');
+  src:  url('fonts/CkFont11.eot?c73ia0#iefix') format('embedded-opentype'),
+    url('fonts/CkFont11.ttf?c73ia0') format('truetype'),
+    url('fonts/CkFont11.woff?c73ia0') format('woff'),
+    url('fonts/CkFont11.svg?c73ia0#CkFont11') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -72,5 +72,8 @@
 }
 .ck-gps:before {
   content: "\e020";
+}
+.ck-compass:before {
+  content: "\e902";
 }
 

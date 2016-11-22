@@ -22,13 +22,13 @@
         {}
       ],
       "properties": {
-        "order": 49,
+        "order": 63,
         "id": 496,
         "prevSize": 32,
         "code": 59649,
         "name": "previous"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 0
     },
@@ -53,11 +53,11 @@
         "ligatures": "arrow-right, right3",
         "name": "next",
         "id": 494,
-        "order": 50,
+        "order": 64,
         "prevSize": 32,
         "code": 59956
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 1
     },
@@ -83,13 +83,13 @@
         {}
       ],
       "properties": {
-        "order": 51,
+        "order": 65,
         "id": 493,
         "name": "edit-geom",
         "prevSize": 32,
         "code": 59648
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 2
     },
@@ -114,11 +114,11 @@
         "ligatures": "undo2, left",
         "name": "undo2",
         "id": 491,
-        "order": 52,
+        "order": 66,
         "prevSize": 32,
         "code": 59751
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 3
     },
@@ -143,11 +143,11 @@
         "ligatures": "redo2, right",
         "name": "redo2",
         "id": 492,
-        "order": 53,
+        "order": 67,
         "prevSize": 32,
         "code": 59752
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 4
     },
@@ -165,14 +165,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 54,
+        "order": 68,
         "id": 1,
         "prevSize": 32,
         "code": 57345,
         "name": "selects",
         "ligatures": ""
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 5
     },
@@ -191,13 +191,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 55,
+        "order": 69,
         "id": 8,
         "name": "select-box",
         "prevSize": 32,
         "code": 57346
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 6
     },
@@ -216,13 +216,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 56,
+        "order": 70,
         "id": 7,
         "name": "select-circle",
         "prevSize": 32,
         "code": 57347
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 7
     },
@@ -241,13 +241,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 57,
+        "order": 71,
         "id": 6,
         "name": "select-point",
         "prevSize": 32,
         "code": 57348
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 8
     },
@@ -269,13 +269,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 58,
+        "order": 72,
         "id": 4,
         "prevSize": 32,
         "code": 57360,
         "name": "measures"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 9
     },
@@ -293,13 +293,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 59,
+        "order": 73,
         "id": 3,
         "prevSize": 32,
         "code": 57361,
         "name": "measure-length"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 10
     },
@@ -317,14 +317,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 60,
+        "order": 74,
         "id": 2,
         "prevSize": 32,
         "code": 57362,
         "name": "measure-area",
         "ligatures": ""
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 11
     },
@@ -343,15 +343,46 @@
       },
       "attrs": [],
       "properties": {
-        "order": 61,
+        "order": 75,
         "id": 5,
         "prevSize": 32,
         "code": 57376,
         "name": "gps"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 1,
       "iconIdx": 12
+    },
+    {
+      "icon": {
+        "paths": [
+          "M544.010 1024.004c-2.296 0-4.622-0.25-6.94-0.764-14.648-3.25-25.070-16.238-25.070-31.24v-480h-480c-15.002 0-27.992-10.422-31.24-25.070-3.25-14.646 4.114-29.584 17.708-35.928l960-448c12.196-5.688 26.644-3.144 36.16 6.372 9.516 9.514 12.060 23.966 6.372 36.16l-448 960c-5.342 11.44-16.772 18.47-28.99 18.47zM176.242 448h367.758c17.674 0 32 14.328 32 32v367.758l349.79-749.546-749.548 349.788z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "compass",
+          "direction",
+          "location"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 76,
+        "id": 497,
+        "name": "compass",
+        "prevSize": 32,
+        "code": 59650
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 13
     }
   ],
   "height": 1024,
