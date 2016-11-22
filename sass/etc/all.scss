@@ -55,6 +55,12 @@ $ck-font-name: CkFont11;
 // Icon Glyph
 // -------------------------
 
+.ck-previous:before {
+  content: "\e901";
+}
+.ck-next:before {
+  content: "\ea34";
+}
 .ck-edit-geom:before {
   content: "\e900";
 }

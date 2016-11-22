@@ -25,6 +25,8 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'arrow-right': '&#xea34;',
+            'right3': '&#xea34;',
             'undo2': '&#xe967;',
             'left': '&#xe967;',
             'redo2': '&#xe968;',
