@@ -55,6 +55,9 @@ $ck-font-name: CkFont13;
 
 // Icon Glyph
 // -------------------------
+.ck-square:before {
+  content: "\ea53";
+}
 .ck-zoom:before {
   content: "\e914";
 }
@@ -127,43 +130,10 @@ $ck-font-name: CkFont13;
 .ck-file-text:before {
   content: "\e90a";
 }
-.ck-file:before {
-  content: "\e90a";
-}
-.ck-document:before {
-  content: "\e90a";
-}
-.ck-list:before {
-  content: "\e90a";
-}
-.ck-paper:before {
-  content: "\e90a";
-}
-.ck-page:before {
-  content: "\e90a";
+.ck-file-picture:before {
+  content: "\e928";
 }
 .ck-file-empty:before {
-  content: "\e90b";
-}
-.ck-file2:before {
-  content: "\e90b";
-}
-.ck-document2:before {
-  content: "\e90b";
-}
-.ck-paper2:before {
-  content: "\e90b";
-}
-.ck-page2:before {
-  content: "\e90b";
-}
-.ck-new:before {
-  content: "\e90b";
-}
-.ck-empty:before {
-  content: "\e90b";
-}
-.ck-blank:before {
   content: "\e90b";
 }
 .ck-info:before {
@@ -171,6 +141,11 @@ $ck-font-name: CkFont13;
 }
 .ck-information:before {
   content: "\e90c";
+}
+.ck-info2:before {
+  content: "\f129";
+  /* Align "i" with font-size 24px */
+  padding-left: 8px;
 }
 .ck-home:before {
   content: "\e90d";
@@ -274,14 +249,17 @@ $ck-font-name: CkFont13;
 .ck-draw-polygon:before {
   content: "\e917";
 }
-.ck-info2:before {
-  content: "\f129";
-}
 .ck-merge:before {
   content: "\e91c";
 }
 .ck-division:before {
   content: "\e91d";
+}
+.ck-config:before {
+  content: "\e995";
+}
+.ck-parameter:before {
+  content: "\e996";
 }
 // -------------------------
 

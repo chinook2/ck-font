@@ -25,6 +25,9 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'checkbox-unchecked': '&#xea53;',
+            'file-picture': '&#xe928;',
+            'file5': '&#xe928;',
             'compass': '&#xe030;',
             'direction': '&#xe030;',
             'stack': '&#xe040;',
@@ -39,6 +42,10 @@
             'expand': '&#xe053;',
             'shrink': '&#xe054;',
             'collapse': '&#xe054;',
+            'cog': '&#xe995;',
+            'gear': '&#xe995;',
+            'equalizer2': '&#xe996;',
+            'sliders2': '&#xe996;',
           '0': 0
         };
         delete icons['0'];
