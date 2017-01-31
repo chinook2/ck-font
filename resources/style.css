@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont11';
-  src:  url('fonts/CkFont11.eot?c73ia0');
-  src:  url('fonts/CkFont11.eot?c73ia0#iefix') format('embedded-opentype'),
-    url('fonts/CkFont11.ttf?c73ia0') format('truetype'),
-    url('fonts/CkFont11.woff?c73ia0') format('woff'),
-    url('fonts/CkFont11.svg?c73ia0#CkFont11') format('svg');
+  src:  url('fonts/CkFont11.eot?9snb40');
+  src:  url('fonts/CkFont11.eot?9snb40#iefix') format('embedded-opentype'),
+    url('fonts/CkFont11.ttf?9snb40') format('truetype'),
+    url('fonts/CkFont11.woff?9snb40') format('woff'),
+    url('fonts/CkFont11.svg?9snb40#CkFont11') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-navigation:before {
+  content: "\e94a";
+}
 .ck-previous:before {
   content: "\e901";
 }

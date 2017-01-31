@@ -25,6 +25,8 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'compass2': '&#xe94a;',
+            'direction2': '&#xe94a;',
             'arrow-right': '&#xea34;',
             'right3': '&#xea34;',
             'undo2': '&#xe967;',
