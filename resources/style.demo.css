@@ -1,60 +1,66 @@
-/*
- * Ck-font : font icons for Chinook Client ck-viewer
- * Created with https://icomoon.io/app/
- *
- * Import project with "selection.json" file, add icons, and generate font (change version number CkFont11, CkFont12 ...)
- *
- * Update :
- *  change $ck-font-name
- *  copy/paste  Icon Glyph from style.css
- */
-
-$ck-font-path: 'ck-font/fonts' ;
-// get-resource-path('fonts');
-$ck-font-name: CkFont13;
-
-// FONT PATH
-// -------------------------
 @font-face {
-    font-family: '#{$ck-font-name}';
-    src:    url('#{$ck-font-path}/#{$ck-font-name}.eot?c6hseo');
-    src:    url('#{$ck-font-path}/#{$ck-font-name}.eot?c6hseo#iefix') format('embedded-opentype'),
-        url('#{$ck-font-path}/#{$ck-font-name}.ttf?c6hseo') format('truetype'),
-        url('#{$ck-font-path}/#{$ck-font-name}.woff?c6hseo') format('woff'),
-        url('#{$ck-font-path}/#{$ck-font-name}.svg?c6hseo##{$ck-font-name}') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'CkFont13';
+  src:  url('fonts/CkFont13.eot?ujasl2');
+  src:  url('fonts/CkFont13.eot?ujasl2#iefix') format('embedded-opentype'),
+    url('fonts/CkFont13.ttf?ujasl2') format('truetype'),
+    url('fonts/CkFont13.woff?ujasl2') format('woff'),
+    url('fonts/CkFont13.svg?ujasl2#CkFont13') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-// Base Class Definition
-// -------------------------
-.ckfont {
-  display: inline-block;
-  font: normal normal normal 14px/1 #{$ck-font-name};
-  font-size: 24px; // can't have font-size inherit on line above, so need to override
-  text-rendering: auto; // optimizelegibility throws things off #1094
+
+[class^="ck-"], [class*=" ck-"] {
+  font-family: 'CkFont13' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
 }
 
-// Icon Sizes
-// -------------------------
-/* makes the font 33% larger relative to the icon container */
+
+.ckfont {
+    display: inline-block;
+    font: normal normal normal 14px/1 CkFont13;
+    font-size: 24px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0)
+}
 .ckfont-lg {
-  font-size: (4em / 3);
-  line-height: (3em / 4);
-  vertical-align: -15%;
+    font-size: 1.333em;
+    line-height: .75em;
+    vertical-align: -15%
 }
-.ckfont-2x { font-size: 2em; }
-.ckfont-3x { font-size: 3em; }
-.ckfont-4x { font-size: 4em; }
-.ckfont-5x { font-size: 5em; }
+.ckfont-2x {
+    font-size: 2em
+}
+.ckfont-3x {
+    font-size: 3em
+}
+.ckfont-4x {
+    font-size: 4em
+}
+.ckfont-5x {
+    font-size: 5em
+}
 
 
-
-// Icon Glyph
-// -------------------------
 
 .ck-zoom-flip:before {
   content: "\e00e";
@@ -277,29 +283,31 @@ $ck-font-name: CkFont13;
 .ck-parameter:before {
   content: "\e996";
 }
-// -------------------------
 
 
 
-// The "x-ck" class should be used in Ext JS applications
+
+/*
+ * Add for InnoLa
+ */
 .x-ckfont:before {
-    font-family: '#{$ck-font-name}';
+    font-family: "CkFont13"
 }
 
-// For Ext5 with classic PointChange
-// TODO: check in build mode
 .ckZoom {
-    background-image: url('ck-font/img/zoom-flip.png');
+    background-image: url("img/zoom-flip.png");
     background-size: 15px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 .ckClose {
-    background-image: url('ck-font/img/close.png');
+    background-image: url("img/close.png");
     background-size: 15px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 .ckEdit {
-    background-image: url('ck-font/img/edit.png');
+    background-image: url("img/edit.png");
     background-size: 15px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
+
+
