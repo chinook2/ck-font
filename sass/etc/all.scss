@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont13;
+$ck-font-name: CkFont14;
 
 // FONT PATH
 // -------------------------
@@ -55,7 +55,6 @@ $ck-font-name: CkFont13;
 
 // Icon Glyph
 // -------------------------
-
 .ck-zoom-flip:before {
   content: "\e00e";
 }
@@ -85,6 +84,12 @@ $ck-font-name: CkFont13;
 }
 .ck-zoom-box:before {
   content: "\e00d";
+}
+.ck-enlarge:before {
+  content: "\e053";
+}
+.ck-shrink:before {
+  content: "\e054";
 }
 .ck-square:before {
   content: "\ea53";
@@ -170,7 +175,7 @@ $ck-font-name: CkFont13;
 .ck-info2:before {
   content: "\f129";
   /* Align "i" with font-size 24px */
-  padding-left: 8px;
+  padding-left: 8px;  
 }
 .ck-home:before {
   content: "\e90d";
@@ -180,6 +185,9 @@ $ck-font-name: CkFont13;
 }
 .ck-eye:before {
   content: "\e901";
+}
+.ck-bearing-distance:before {
+  content: "\e914";
 }
 .ck-add_coordinates:before {
   content: "\e900";
@@ -208,12 +216,6 @@ $ck-font-name: CkFont13;
 .ck-import_xml:before {
   content: "\e921";
 }
-.ck-snap1:before {
-  content: "\e92a";
-}
-.ck-view_topology_report:before {
-  content: "\e938";
-}
 .ck-selects:before {
   content: "\e001";
 }
@@ -225,9 +227,6 @@ $ck-font-name: CkFont13;
 }
 .ck-select-point:before {
   content: "\e004";
-}
-.ck-snap:before {
-  content: "\e007";
 }
 .ck-measures:before {
   content: "\e010";
@@ -241,6 +240,15 @@ $ck-font-name: CkFont13;
 .ck-measure-radius:before {
   content: "\e013";
 }
+.ck-draw:before {
+  content: "\e916";
+}
+.ck-draw-polygon:before {
+  content: "\e917";
+}
+.ck-eraser:before {
+  content: "\e015";
+}
 .ck-gps:before {
   content: "\e020";
 }
@@ -250,20 +258,11 @@ $ck-font-name: CkFont13;
 .ck-stack:before {
   content: "\e040";
 }
-.ck-enlarge:before {
-  content: "\e053";
+.ck-snap:before {
+  content: "\e007";
 }
-.ck-shrink:before {
-  content: "\e054";
-}
-.ck-eraser:before {
-  content: "\e015";
-}
-.ck-draw:before {
-  content: "\e916";
-}
-.ck-draw-polygon:before {
-  content: "\e917";
+.ck-snap1:before {
+  content: "\e92a";
 }
 .ck-merge:before {
   content: "\e91c";
@@ -271,8 +270,17 @@ $ck-font-name: CkFont13;
 .ck-division:before {
   content: "\e91d";
 }
+.ck-add_ring:before {
+  content: "\e915";
+}
+.ck-add_part:before {
+  content: "\e918";
+}
 .ck-config:before {
   content: "\e995";
+}
+.ck-view_topology_report:before {
+  content: "\e938";
 }
 .ck-parameter:before {
   content: "\e996";

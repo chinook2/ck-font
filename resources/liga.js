@@ -25,6 +25,10 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'enlarge': '&#xe053;',
+            'expand': '&#xe053;',
+            'shrink': '&#xe054;',
+            'collapse': '&#xe054;',
             'checkbox-unchecked': '&#xea53;',
             'file-picture': '&#xe928;',
             'file5': '&#xe928;',
@@ -32,10 +36,6 @@
             'direction': '&#xe030;',
             'stack': '&#xe040;',
             'layers': '&#xe040;',
-            'enlarge': '&#xe053;',
-            'expand': '&#xe053;',
-            'shrink': '&#xe054;',
-            'collapse': '&#xe054;',
             'cog': '&#xe995;',
             'gear': '&#xe995;',
             'equalizer2': '&#xe996;',

@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont13';
-  src:  url('fonts/CkFont13.eot?ujasl2');
-  src:  url('fonts/CkFont13.eot?ujasl2#iefix') format('embedded-opentype'),
-    url('fonts/CkFont13.ttf?ujasl2') format('truetype'),
-    url('fonts/CkFont13.woff?ujasl2') format('woff'),
-    url('fonts/CkFont13.svg?ujasl2#CkFont13') format('svg');
+  font-family: 'CkFont14';
+  src:  url('fonts/CkFont14.eot?qhud8');
+  src:  url('fonts/CkFont14.eot?qhud8#iefix') format('embedded-opentype'),
+    url('fonts/CkFont14.ttf?qhud8') format('truetype'),
+    url('fonts/CkFont14.woff?qhud8') format('woff'),
+    url('fonts/CkFont14.svg?qhud8#CkFont14') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-
 [class^="ck-"], [class*=" ck-"] {
-  font-family: 'CkFont13' !important;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CkFont14' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -19,6 +19,7 @@
   text-transform: none;
   line-height: 1;
   
+  /* Enable Ligatures ================ */
   letter-spacing: 0;
   -webkit-font-feature-settings: "liga";
   -moz-font-feature-settings: "liga=1";
@@ -28,39 +29,10 @@
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
 
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
-.ckfont {
-    display: inline-block;
-    font: normal normal normal 14px/1 CkFont13;
-    font-size: 24px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0)
-}
-.ckfont-lg {
-    font-size: 1.333em;
-    line-height: .75em;
-    vertical-align: -15%
-}
-.ckfont-2x {
-    font-size: 2em
-}
-.ckfont-3x {
-    font-size: 3em
-}
-.ckfont-4x {
-    font-size: 4em
-}
-.ckfont-5x {
-    font-size: 5em
-}
-
-
 
 .ck-zoom-flip:before {
   content: "\e00e";
@@ -91,6 +63,12 @@
 }
 .ck-zoom-box:before {
   content: "\e00d";
+}
+.ck-enlarge:before {
+  content: "\e053";
+}
+.ck-shrink:before {
+  content: "\e054";
 }
 .ck-square:before {
   content: "\ea53";
@@ -175,8 +153,6 @@
 }
 .ck-info2:before {
   content: "\f129";
-  /* Align "i" with font-size 24px */
-  padding-left: 8px;
 }
 .ck-home:before {
   content: "\e90d";
@@ -186,6 +162,9 @@
 }
 .ck-eye:before {
   content: "\e901";
+}
+.ck-bearing-distance:before {
+  content: "\e914";
 }
 .ck-add_coordinates:before {
   content: "\e900";
@@ -214,12 +193,6 @@
 .ck-import_xml:before {
   content: "\e921";
 }
-.ck-snap1:before {
-  content: "\e92a";
-}
-.ck-view_topology_report:before {
-  content: "\e938";
-}
 .ck-selects:before {
   content: "\e001";
 }
@@ -231,9 +204,6 @@
 }
 .ck-select-point:before {
   content: "\e004";
-}
-.ck-snap:before {
-  content: "\e007";
 }
 .ck-measures:before {
   content: "\e010";
@@ -247,6 +217,15 @@
 .ck-measure-radius:before {
   content: "\e013";
 }
+.ck-draw:before {
+  content: "\e916";
+}
+.ck-draw-polygon:before {
+  content: "\e917";
+}
+.ck-eraser:before {
+  content: "\e015";
+}
 .ck-gps:before {
   content: "\e020";
 }
@@ -256,20 +235,11 @@
 .ck-stack:before {
   content: "\e040";
 }
-.ck-enlarge:before {
-  content: "\e053";
+.ck-snap:before {
+  content: "\e007";
 }
-.ck-shrink:before {
-  content: "\e054";
-}
-.ck-eraser:before {
-  content: "\e015";
-}
-.ck-draw:before {
-  content: "\e916";
-}
-.ck-draw-polygon:before {
-  content: "\e917";
+.ck-snap1:before {
+  content: "\e92a";
 }
 .ck-merge:before {
   content: "\e91c";
@@ -277,37 +247,19 @@
 .ck-division:before {
   content: "\e91d";
 }
+.ck-add_ring:before {
+  content: "\e915";
+}
+.ck-add_part:before {
+  content: "\e918";
+}
 .ck-config:before {
   content: "\e995";
+}
+.ck-view_topology_report:before {
+  content: "\e938";
 }
 .ck-parameter:before {
   content: "\e996";
 }
-
-
-
-
-/*
- * Add for InnoLa
- */
-.x-ckfont:before {
-    font-family: "CkFont13"
-}
-
-.ckZoom {
-    background-image: url("img/zoom-flip.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckClose {
-    background-image: url("img/close.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckEdit {
-    background-image: url("img/edit.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-
 
