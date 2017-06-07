@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont14';
-  src:  url('fonts/CkFont14.eot?qhud8');
-  src:  url('fonts/CkFont14.eot?qhud8#iefix') format('embedded-opentype'),
-    url('fonts/CkFont14.ttf?qhud8') format('truetype'),
-    url('fonts/CkFont14.woff?qhud8') format('woff'),
-    url('fonts/CkFont14.svg?qhud8#CkFont14') format('svg');
+  font-family: 'CkFont15';
+  src:  url('fonts/CkFont15.eot?i8gd5z');
+  src:  url('fonts/CkFont15.eot?i8gd5z#iefix') format('embedded-opentype'),
+    url('fonts/CkFont15.ttf?i8gd5z') format('truetype'),
+    url('fonts/CkFont15.woff?i8gd5z') format('woff'),
+    url('fonts/CkFont15.svg?i8gd5z#CkFont15') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="ck-"], [class*=" ck-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont14' !important;
+  font-family: 'CkFont15' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -33,6 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 .ck-zoom-flip:before {
   content: "\e00e";
@@ -153,6 +154,8 @@
 }
 .ck-info2:before {
   content: "\f129";
+  /* Align "i" with font-size 24px */
+  padding-left: 8px;    
 }
 .ck-home:before {
   content: "\e90d";
@@ -171,6 +174,9 @@
 }
 .ck-add_vertex:before {
   content: "\e905";
+}
+.ck-move_parcel:before {
+  content: "\e91e";
 }
 .ck-delete_parcel:before {
   content: "\e906";
@@ -261,5 +267,31 @@
 }
 .ck-parameter:before {
   content: "\e996";
+}
+
+
+
+
+/*
+ * Add for InnoLa
+ */
+.x-ckfont:before {
+    font-family: "CkFont13"
+}
+
+.ckZoom {
+    background-image: url("img/zoom-flip.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckClose {
+    background-image: url("img/close.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckEdit {
+    background-image: url("img/edit.png");
+    background-size: 15px;
+    background-repeat: no-repeat
 }
 

@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont14;
+$ck-font-name: CkFont15;
 
 // FONT PATH
 // -------------------------
@@ -55,6 +55,7 @@ $ck-font-name: CkFont14;
 
 // Icon Glyph
 // -------------------------
+
 .ck-zoom-flip:before {
   content: "\e00e";
 }
@@ -175,7 +176,7 @@ $ck-font-name: CkFont14;
 .ck-info2:before {
   content: "\f129";
   /* Align "i" with font-size 24px */
-  padding-left: 8px;  
+  padding-left: 8px;    
 }
 .ck-home:before {
   content: "\e90d";
@@ -194,6 +195,9 @@ $ck-font-name: CkFont14;
 }
 .ck-add_vertex:before {
   content: "\e905";
+}
+.ck-move_parcel:before {
+  content: "\e91e";
 }
 .ck-delete_parcel:before {
   content: "\e906";
