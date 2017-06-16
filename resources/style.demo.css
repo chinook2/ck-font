@@ -71,6 +71,9 @@
 .ck-shrink:before {
   content: "\e054";
 }
+.ck-crosshairs:before {
+  content: "\e91f";
+}
 .ck-square:before {
   content: "\ea53";
 }
