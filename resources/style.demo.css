@@ -271,7 +271,12 @@
 .ck-parameter:before {
   content: "\e996";
 }
-
+.ck-toggle-on:before {
+  content: "\e920";
+}
+.ck-toggle-off:before {
+  content: "\e922";
+}
 
 
 

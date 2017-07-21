@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont15';
-  src:  url('fonts/CkFont15.eot?2wcj8i');
-  src:  url('fonts/CkFont15.eot?2wcj8i#iefix') format('embedded-opentype'),
-    url('fonts/CkFont15.ttf?2wcj8i') format('truetype'),
-    url('fonts/CkFont15.woff?2wcj8i') format('woff'),
-    url('fonts/CkFont15.svg?2wcj8i#CkFont15') format('svg');
+  src:  url('fonts/CkFont15.eot?2wcj8j');
+  src:  url('fonts/CkFont15.eot?2wcj8j#iefix') format('embedded-opentype'),
+    url('fonts/CkFont15.ttf?2wcj8j') format('truetype'),
+    url('fonts/CkFont15.woff?2wcj8j') format('woff'),
+    url('fonts/CkFont15.svg?2wcj8j#CkFont15') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -272,7 +272,12 @@
 .ck-parameter:before {
   content: "\e996";
 }
-
+.ck-toggle-on:before {
+  content: "\e920";
+}
+.ck-toggle-off:before {
+  content: "\e922";
+}
 
 
 
