@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont15;
+$ck-font-name: CkFont16;
 
 // FONT PATH
 // -------------------------
@@ -297,6 +297,9 @@ $ck-font-name: CkFont15;
 }
 .ck-toggle-off:before {
   content: "\e922";
+}
+.ck-physical-planning:before {
+  content: "\e923";
 }
 // -------------------------
 

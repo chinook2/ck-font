@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont15';
-  src:  url('fonts/CkFont15.eot?i8gd5z');
-  src:  url('fonts/CkFont15.eot?i8gd5z#iefix') format('embedded-opentype'),
-    url('fonts/CkFont15.ttf?i8gd5z') format('truetype'),
-    url('fonts/CkFont15.woff?i8gd5z') format('woff'),
-    url('fonts/CkFont15.svg?i8gd5z#CkFont15') format('svg');
+  font-family: 'CkFont16';
+  src:  url('fonts/CkFont16.eot?6l9bf2');
+  src:  url('fonts/CkFont16.eot?6l9bf2#iefix') format('embedded-opentype'),
+    url('fonts/CkFont16.ttf?6l9bf2') format('truetype'),
+    url('fonts/CkFont16.woff?6l9bf2') format('woff'),
+    url('fonts/CkFont16.svg?6l9bf2#CkFont16') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="ck-"], [class*=" ck-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont15' !important;
+  font-family: 'CkFont16' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -33,7 +33,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .ck-zoom-flip:before {
   content: "\e00e";
@@ -277,6 +276,9 @@
 .ck-toggle-off:before {
   content: "\e922";
 }
+.ck-physical-planning:before {
+  content: "\e923";
+}
 
 
 
@@ -302,4 +304,3 @@
     background-size: 15px;
     background-repeat: no-repeat
 }
-
