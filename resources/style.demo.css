@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont16';
-  src:  url('fonts/CkFont16.eot?6l9bf2');
-  src:  url('fonts/CkFont16.eot?6l9bf2#iefix') format('embedded-opentype'),
-    url('fonts/CkFont16.ttf?6l9bf2') format('truetype'),
-    url('fonts/CkFont16.woff?6l9bf2') format('woff'),
-    url('fonts/CkFont16.svg?6l9bf2#CkFont16') format('svg');
+  font-family: 'CkFont17';
+  src:  url('fonts/CkFont17.eot?no4v0j');
+  src:  url('fonts/CkFont17.eot?no4v0j#iefix') format('embedded-opentype'),
+    url('fonts/CkFont17.ttf?no4v0j') format('truetype'),
+    url('fonts/CkFont17.woff?no4v0j') format('woff'),
+    url('fonts/CkFont17.svg?no4v0j#CkFont17') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="ck-"], [class*=" ck-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont16' !important;
+  font-family: 'CkFont17' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -34,8 +34,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ck-zoom-flip:before {
-  content: "\e00e";
+.ck-guide:before {
+  content: "\e924";
+}
+.ck-guide2:before {
+  content: "\e925";
+}
+.ck-map-marker:before {
+  content: "\e926";
+}
+.ck-map-marker2:before {
+  content: "\e927";
 }
 .ck-search:before {
   content: "\e00e";
@@ -69,6 +78,9 @@
 }
 .ck-shrink:before {
   content: "\e054";
+}
+.ck-target:before {
+  content: "\e929";
 }
 .ck-crosshairs:before {
   content: "\e91f";
@@ -112,32 +124,11 @@
 .ck-download:before {
   content: "\e904";
 }
-.ck-save:before {
-  content: "\e904";
-}
-.ck-store:before {
-  content: "\e904";
-}
-.ck-arrow:before {
-  content: "\e904";
-}
-.ck-box-add:before {
-  content: "\e907";
-}
-.ck-box:before {
-  content: "\e907";
-}
-.ck-download2:before {
-  content: "\e907";
-}
-.ck-storage:before {
-  content: "\e907";
-}
-.ck-inbox:before {
-  content: "\e907";
-}
 .ck-archive:before {
   content: "\e907";
+}
+.ck-file-xml:before {
+  content: "\e92b";
 }
 .ck-file-text:before {
   content: "\e90a";
@@ -156,13 +147,8 @@
 }
 .ck-info2:before {
   content: "\f129";
-  /* Align "i" with font-size 24px */
-  padding-left: 8px;    
 }
 .ck-home:before {
-  content: "\e90d";
-}
-.ck-house:before {
   content: "\e90d";
 }
 .ck-eye:before {
@@ -240,6 +226,9 @@
 .ck-compass:before {
   content: "\e030";
 }
+.ck-compass2:before {
+  content: "\e92c";
+}
 .ck-stack:before {
   content: "\e040";
 }
@@ -278,29 +267,4 @@
 }
 .ck-physical-planning:before {
   content: "\e923";
-}
-
-
-
-/*
- * Add for InnoLa
- */
-.x-ckfont:before {
-    font-family: "CkFont13"
-}
-
-.ckZoom {
-    background-image: url("img/zoom-flip.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckClose {
-    background-image: url("img/close.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckEdit {
-    background-image: url("img/edit.png");
-    background-size: 15px;
-    background-repeat: no-repeat
 }

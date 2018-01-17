@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont16;
+$ck-font-name: CkFont17;
 
 // FONT PATH
 // -------------------------
@@ -55,9 +55,17 @@ $ck-font-name: CkFont16;
 
 // Icon Glyph
 // -------------------------
-
-.ck-zoom-flip:before {
-  content: "\e00e";
+.ck-guide:before {
+  content: "\e924";
+}
+.ck-guide2:before {
+  content: "\e925";
+}
+.ck-map-marker:before {
+  content: "\e926";
+}
+.ck-map-marker2:before {
+  content: "\e927";
 }
 .ck-search:before {
   content: "\e00e";
@@ -91,6 +99,9 @@ $ck-font-name: CkFont16;
 }
 .ck-shrink:before {
   content: "\e054";
+}
+.ck-target:before {
+  content: "\e929";
 }
 .ck-crosshairs:before {
   content: "\e91f";
@@ -134,32 +145,11 @@ $ck-font-name: CkFont16;
 .ck-download:before {
   content: "\e904";
 }
-.ck-save:before {
-  content: "\e904";
-}
-.ck-store:before {
-  content: "\e904";
-}
-.ck-arrow:before {
-  content: "\e904";
-}
-.ck-box-add:before {
-  content: "\e907";
-}
-.ck-box:before {
-  content: "\e907";
-}
-.ck-download2:before {
-  content: "\e907";
-}
-.ck-storage:before {
-  content: "\e907";
-}
-.ck-inbox:before {
-  content: "\e907";
-}
 .ck-archive:before {
   content: "\e907";
+}
+.ck-file-xml:before {
+  content: "\e92b";
 }
 .ck-file-text:before {
   content: "\e90a";
@@ -179,12 +169,9 @@ $ck-font-name: CkFont16;
 .ck-info2:before {
   content: "\f129";
   /* Align "i" with font-size 24px */
-  padding-left: 8px;    
+  padding-left: 8px;
 }
 .ck-home:before {
-  content: "\e90d";
-}
-.ck-house:before {
   content: "\e90d";
 }
 .ck-eye:before {
@@ -261,6 +248,9 @@ $ck-font-name: CkFont16;
 }
 .ck-compass:before {
   content: "\e030";
+}
+.ck-compass2:before {
+  content: "\e92c";
 }
 .ck-stack:before {
   content: "\e040";
