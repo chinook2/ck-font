@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'CkFont17';
-  src:  url('fonts/CkFont17.eot?no4v0j');
-  src:  url('fonts/CkFont17.eot?no4v0j#iefix') format('embedded-opentype'),
-    url('fonts/CkFont17.ttf?no4v0j') format('truetype'),
-    url('fonts/CkFont17.woff?no4v0j') format('woff'),
-    url('fonts/CkFont17.svg?no4v0j#CkFont17') format('svg');
+  font-family: 'CkFont18';
+  src:  url('fonts/CkFont18.eot?qizve5');
+  src:  url('fonts/CkFont18.eot?qizve5#iefix') format('embedded-opentype'),
+    url('fonts/CkFont18.ttf?qizve5') format('truetype'),
+    url('fonts/CkFont18.woff?qizve5') format('woff'),
+    url('fonts/CkFont18.svg?qizve5#CkFont18') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 .ckfont {
     display: inline-block;
-    font: normal normal normal 14px/1 CkFont17;
+    font: normal normal normal 14px/1 CkFont18;
     font-size: 24px;
     text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +36,21 @@
     font-size: 5em
 }
 
-
+.ck-plus:before {
+  content: "\ea0a";
+}
+.ck-minus:before {
+  content: "\ea0b";
+}
+.ck-cross:before {
+  content: "\ea0f";
+}
+.ck-checkmark:before {
+  content: "\ea10";
+}
+.ck-blocked:before {
+  content: "\ea0e";
+}
 .ck-guide:before {
   content: "\e924";
 }
@@ -94,6 +108,9 @@
 .ck-edit:before {
   content: "\e912";
 }
+.ck-file-text:before {
+  content: "\e92d";
+}
 .ck-close:before {
   content: "\e913";
 }
@@ -133,11 +150,14 @@
 .ck-file-xml:before {
   content: "\e92b";
 }
-.ck-file-text:before {
+.ck-file-text2:before {
   content: "\e90a";
 }
 .ck-file-picture:before {
   content: "\e928";
+}
+.ck-file-zip:before {
+  content: "\e92e";
 }
 .ck-file-empty:before {
   content: "\e90b";
@@ -273,14 +293,19 @@
 .ck-physical-planning:before {
   content: "\e923";
 }
-
+.ck-file-cad:before {
+  content: "\e92f";
+}
+.ck-file-sef:before {
+  content: "\e930";
+}
 
 
 /*
  * Add for InnoLa
  */
 .x-ckfont:before {
-    font-family: "CkFont17"
+    font-family: "CkFont18"
 }
 
 .ckZoom {

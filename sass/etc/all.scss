@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont17;
+$ck-font-name: CkFont18;
 
 // FONT PATH
 // -------------------------
@@ -55,6 +55,22 @@ $ck-font-name: CkFont17;
 
 // Icon Glyph
 // -------------------------
+
+.ck-plus:before {
+  content: "\ea0a";
+}
+.ck-minus:before {
+  content: "\ea0b";
+}
+.ck-cross:before {
+  content: "\ea0f";
+}
+.ck-checkmark:before {
+  content: "\ea10";
+}
+.ck-blocked:before {
+  content: "\ea0e";
+}
 .ck-guide:before {
   content: "\e924";
 }
@@ -112,6 +128,9 @@ $ck-font-name: CkFont17;
 .ck-edit:before {
   content: "\e912";
 }
+.ck-file-text:before {
+  content: "\e92d";
+}
 .ck-close:before {
   content: "\e913";
 }
@@ -151,11 +170,14 @@ $ck-font-name: CkFont17;
 .ck-file-xml:before {
   content: "\e92b";
 }
-.ck-file-text:before {
+.ck-file-text2:before {
   content: "\e90a";
 }
 .ck-file-picture:before {
   content: "\e928";
+}
+.ck-file-zip:before {
+  content: "\e92e";
 }
 .ck-file-empty:before {
   content: "\e90b";
@@ -290,6 +312,12 @@ $ck-font-name: CkFont17;
 }
 .ck-physical-planning:before {
   content: "\e923";
+}
+.ck-file-cad:before {
+  content: "\e92f";
+}
+.ck-file-sef:before {
+  content: "\e930";
 }
 // -------------------------
 
