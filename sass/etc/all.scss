@@ -55,7 +55,6 @@ $ck-font-name: CkFont18;
 
 // Icon Glyph
 // -------------------------
-
 .ck-plus:before {
   content: "\ea0a";
 }
@@ -128,7 +127,7 @@ $ck-font-name: CkFont18;
 .ck-edit:before {
   content: "\e912";
 }
-.ck-file-text:before {
+.ck-form:before {
   content: "\e92d";
 }
 .ck-close:before {
@@ -167,10 +166,10 @@ $ck-font-name: CkFont18;
 .ck-archive:before {
   content: "\e907";
 }
-.ck-file-xml:before {
+.ck-file-code:before {
   content: "\e92b";
 }
-.ck-file-text2:before {
+.ck-file-text:before {
   content: "\e90a";
 }
 .ck-file-picture:before {
@@ -181,6 +180,27 @@ $ck-font-name: CkFont18;
 }
 .ck-file-empty:before {
   content: "\e90b";
+}
+.ck-file-gis:before {
+  content: "\e931";
+}
+.ck-file-shp:before {
+  content: "\e932";
+}
+.ck-file-cad:before {
+  content: "\e92f";
+}
+.ck-file-sef:before {
+  content: "\e930";
+}
+.ck-file-raw:before {
+  content: "\e933";
+}
+.ck-file-xml:before {
+  content: "\e934";
+}
+.ck-file-csv:before {
+  content: "\e935";
 }
 .ck-info:before {
   content: "\e90c";
@@ -312,12 +332,6 @@ $ck-font-name: CkFont18;
 }
 .ck-physical-planning:before {
   content: "\e923";
-}
-.ck-file-cad:before {
-  content: "\e92f";
-}
-.ck-file-sef:before {
-  content: "\e930";
 }
 // -------------------------
 
