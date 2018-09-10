@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont18';
-  src:  url('fonts/CkFont18.eot?fh09gt');
-  src:  url('fonts/CkFont18.eot?fh09gt#iefix') format('embedded-opentype'),
-    url('fonts/CkFont18.ttf?fh09gt') format('truetype'),
-    url('fonts/CkFont18.woff?fh09gt') format('woff'),
-    url('fonts/CkFont18.svg?fh09gt#CkFont18') format('svg');
+  src:  url('fonts/CkFont18.eot?9zgjy2');
+  src:  url('fonts/CkFont18.eot?9zgjy2#iefix') format('embedded-opentype'),
+    url('fonts/CkFont18.ttf?9zgjy2') format('truetype'),
+    url('fonts/CkFont18.woff?9zgjy2') format('woff'),
+    url('fonts/CkFont18.svg?9zgjy2#CkFont18') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -310,6 +310,9 @@
 }
 .ck-toggle-off:before {
   content: "\e922";
+}
+.ck-road:before {
+  content: "\e936";
 }
 .ck-physical-planning:before {
   content: "\e923";

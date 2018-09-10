@@ -23,7 +23,7 @@
         "ligatures": "plus, add",
         "name": "plus",
         "id": 157,
-        "order": 248,
+        "order": 431,
         "prevSize": 32,
         "code": 59914
       },
@@ -54,7 +54,7 @@
         "ligatures": "minus, subtract",
         "name": "minus",
         "id": 158,
-        "order": 249,
+        "order": 432,
         "prevSize": 32,
         "code": 59915
       },
@@ -86,7 +86,7 @@
         "ligatures": "cross, cancel",
         "name": "cross",
         "id": 160,
-        "order": 250,
+        "order": 433,
         "prevSize": 32,
         "code": 59919
       },
@@ -118,7 +118,7 @@
         "ligatures": "checkmark, tick",
         "name": "checkmark",
         "id": 161,
-        "order": 251,
+        "order": 434,
         "prevSize": 32,
         "code": 59920
       },
@@ -149,7 +149,7 @@
         "ligatures": "blocked, forbidden",
         "name": "blocked",
         "id": 159,
-        "order": 252,
+        "order": 435,
         "prevSize": 32,
         "code": 59918
       },
@@ -172,7 +172,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 253,
+        "order": 436,
         "id": 147,
         "name": "guide",
         "prevSize": 32,
@@ -199,7 +199,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 254,
+        "order": 437,
         "id": 148,
         "name": "guide2",
         "prevSize": 32,
@@ -225,7 +225,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 255,
+        "order": 438,
         "id": 151,
         "name": "map-marker",
         "prevSize": 32,
@@ -251,7 +251,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 256,
+        "order": 439,
         "id": 152,
         "name": "map-marker2",
         "prevSize": 32,
@@ -277,7 +277,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 257,
+        "order": 440,
         "id": 78,
         "name": "search",
         "prevSize": 32,
@@ -304,7 +304,7 @@
       "attrs": [],
       "properties": {
         "id": 79,
-        "order": 258,
+        "order": 441,
         "ligatures": "",
         "prevSize": 32,
         "name": "zoom",
@@ -330,7 +330,7 @@
       "attrs": [],
       "properties": {
         "id": 80,
-        "order": 259,
+        "order": 442,
         "ligatures": "",
         "prevSize": 32,
         "name": "zoom-in",
@@ -356,7 +356,7 @@
       "attrs": [],
       "properties": {
         "id": 81,
-        "order": 260,
+        "order": 443,
         "ligatures": "",
         "prevSize": 32,
         "code": 57352,
@@ -382,7 +382,7 @@
       "attrs": [],
       "properties": {
         "id": 82,
-        "order": 261,
+        "order": 444,
         "ligatures": "",
         "prevSize": 32,
         "code": 57353,
@@ -408,7 +408,7 @@
       "attrs": [],
       "properties": {
         "id": 83,
-        "order": 262,
+        "order": 445,
         "ligatures": "",
         "prevSize": 32,
         "code": 57354,
@@ -434,7 +434,7 @@
       "attrs": [],
       "properties": {
         "id": 84,
-        "order": 263,
+        "order": 446,
         "ligatures": "",
         "prevSize": 32,
         "code": 57355,
@@ -460,7 +460,7 @@
       "attrs": [],
       "properties": {
         "id": 85,
-        "order": 264,
+        "order": 447,
         "ligatures": "",
         "prevSize": 32,
         "code": 57356,
@@ -486,7 +486,7 @@
       "attrs": [],
       "properties": {
         "id": 86,
-        "order": 265,
+        "order": 448,
         "ligatures": "",
         "prevSize": 32,
         "code": 57357,
@@ -520,7 +520,7 @@
         "ligatures": "enlarge, expand",
         "name": "enlarge",
         "id": 87,
-        "order": 266,
+        "order": 449,
         "prevSize": 32,
         "code": 57427
       },
@@ -552,7 +552,7 @@
         "ligatures": "shrink, collapse",
         "name": "shrink",
         "id": 88,
-        "order": 267,
+        "order": 450,
         "prevSize": 32,
         "code": 57428
       },
@@ -577,7 +577,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 268,
+        "order": 451,
         "id": 149,
         "name": "target",
         "prevSize": 32,
@@ -601,7 +601,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 269,
+        "order": 452,
         "id": 141,
         "name": "crosshairs",
         "prevSize": 32,
@@ -632,7 +632,7 @@
         "ligatures": "checkbox-unchecked",
         "name": "square",
         "id": 89,
-        "order": 270,
+        "order": 453,
         "prevSize": 32,
         "code": 59987
       },
@@ -656,7 +656,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 271,
+        "order": 454,
         "id": 90,
         "name": "edit",
         "prevSize": 32,
@@ -688,7 +688,7 @@
         "ligatures": "file-text, file",
         "name": "form",
         "id": 155,
-        "order": 272,
+        "order": 455,
         "prevSize": 32,
         "code": 59693
       },
@@ -713,7 +713,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 273,
+        "order": 456,
         "id": 91,
         "name": "close, remove",
         "prevSize": 32,
@@ -739,7 +739,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 274,
+        "order": 457,
         "id": 92,
         "name": "right, next",
         "prevSize": 32,
@@ -765,7 +765,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 275,
+        "order": 458,
         "id": 93,
         "name": "redo",
         "prevSize": 32,
@@ -791,7 +791,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 276,
+        "order": 459,
         "id": 94,
         "name": "left, previous",
         "prevSize": 32,
@@ -817,7 +817,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 277,
+        "order": 460,
         "id": 95,
         "name": "undo",
         "prevSize": 32,
@@ -842,7 +842,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 278,
+        "order": 461,
         "id": 96,
         "name": "print",
         "prevSize": 32,
@@ -867,7 +867,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 279,
+        "order": 462,
         "id": 97,
         "name": "street-view",
         "prevSize": 32,
@@ -894,7 +894,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 280,
+        "order": 463,
         "id": 98,
         "name": "download",
         "prevSize": 32,
@@ -923,7 +923,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 281,
+        "order": 464,
         "id": 99,
         "name": "archive",
         "prevSize": 32,
@@ -951,7 +951,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 282,
+        "order": 465,
         "id": 146,
         "name": "file-code",
         "prevSize": 32,
@@ -983,7 +983,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 283,
+        "order": 466,
         "id": 100,
         "name": "file-text",
         "prevSize": 32,
@@ -1016,7 +1016,7 @@
         "ligatures": "file-picture, file5",
         "name": "file-picture",
         "id": 101,
-        "order": 284,
+        "order": 467,
         "prevSize": 32,
         "code": 59688
       },
@@ -1058,7 +1058,7 @@
         "ligatures": "file-zip, file9",
         "name": "file-zip",
         "id": 156,
-        "order": 285,
+        "order": 468,
         "prevSize": 32,
         "code": 59694
       },
@@ -1087,7 +1087,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 286,
+        "order": 469,
         "id": 102,
         "name": "file-empty",
         "prevSize": 32,
@@ -1119,7 +1119,7 @@
         {}
       ],
       "properties": {
-        "order": 287,
+        "order": 470,
         "id": 168,
         "name": "file-gis",
         "prevSize": 32,
@@ -1151,7 +1151,7 @@
         {}
       ],
       "properties": {
-        "order": 288,
+        "order": 471,
         "id": 167,
         "name": "file-shp",
         "prevSize": 32,
@@ -1178,7 +1178,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 289,
+        "order": 472,
         "id": 162,
         "name": "file-cad",
         "prevSize": 32,
@@ -1205,7 +1205,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 290,
+        "order": 473,
         "id": 163,
         "name": "file-sef",
         "prevSize": 32,
@@ -1237,7 +1237,7 @@
         {}
       ],
       "properties": {
-        "order": 291,
+        "order": 474,
         "id": 166,
         "name": "file-raw",
         "prevSize": 32,
@@ -1269,7 +1269,7 @@
         {}
       ],
       "properties": {
-        "order": 292,
+        "order": 475,
         "id": 164,
         "name": "file-xml",
         "prevSize": 32,
@@ -1301,7 +1301,7 @@
         {}
       ],
       "properties": {
-        "order": 293,
+        "order": 476,
         "id": 165,
         "name": "file-csv",
         "prevSize": 32,
@@ -1328,7 +1328,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 294,
+        "order": 477,
         "id": 103,
         "name": "info, information",
         "prevSize": 32,
@@ -1356,7 +1356,7 @@
       "properties": {
         "name": "info2",
         "id": 104,
-        "order": 295,
+        "order": 478,
         "prevSize": 32,
         "code": 61737
       },
@@ -1379,7 +1379,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 296,
+        "order": 479,
         "id": 105,
         "name": "home",
         "prevSize": 32,
@@ -1406,7 +1406,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 297,
+        "order": 480,
         "id": 106,
         "prevSize": 32,
         "code": 59649,
@@ -1434,7 +1434,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 298,
+        "order": 481,
         "id": 107,
         "name": "bearing-distance",
         "prevSize": 32,
@@ -1462,7 +1462,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 299,
+        "order": 482,
         "id": 108,
         "name": "add_coordinates",
         "prevSize": 32,
@@ -1494,7 +1494,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 300,
+        "order": 483,
         "id": 109,
         "name": "add_vertex",
         "prevSize": 32,
@@ -1523,7 +1523,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 301,
+        "order": 484,
         "id": 110,
         "name": "move_parcel",
         "prevSize": 32,
@@ -1548,7 +1548,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 302,
+        "order": 485,
         "id": 111,
         "name": "delete_parcel",
         "prevSize": 32,
@@ -1577,7 +1577,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 303,
+        "order": 486,
         "id": 112,
         "name": "delete_vertex",
         "prevSize": 32,
@@ -1615,7 +1615,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 304,
+        "order": 487,
         "id": 113,
         "name": "delete_working_area",
         "prevSize": 32,
@@ -1659,7 +1659,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 305,
+        "order": 488,
         "id": 114,
         "name": "draw_working_area",
         "prevSize": 32,
@@ -1691,7 +1691,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 306,
+        "order": 489,
         "id": 115,
         "name": "edit_parcel_forms",
         "prevSize": 32,
@@ -1720,7 +1720,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 307,
+        "order": 490,
         "id": 116,
         "name": "import_csv",
         "prevSize": 32,
@@ -1760,7 +1760,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 308,
+        "order": 491,
         "id": 117,
         "name": "import_xml",
         "prevSize": 32,
@@ -1795,7 +1795,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 309,
+        "order": 492,
         "id": 118,
         "prevSize": 32,
         "code": 57345,
@@ -1821,7 +1821,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 310,
+        "order": 493,
         "id": 119,
         "name": "select-box",
         "prevSize": 32,
@@ -1846,7 +1846,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 311,
+        "order": 494,
         "id": 120,
         "name": "select-circle",
         "prevSize": 32,
@@ -1871,7 +1871,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 312,
+        "order": 495,
         "id": 121,
         "name": "select-point",
         "prevSize": 32,
@@ -1899,7 +1899,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 313,
+        "order": 496,
         "id": 122,
         "prevSize": 32,
         "code": 57360,
@@ -1923,7 +1923,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 314,
+        "order": 497,
         "id": 123,
         "prevSize": 32,
         "code": 57361,
@@ -1947,7 +1947,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 315,
+        "order": 498,
         "id": 124,
         "prevSize": 32,
         "code": 57362,
@@ -1973,7 +1973,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 316,
+        "order": 499,
         "id": 125,
         "name": "measure-radius",
         "prevSize": 32,
@@ -2000,7 +2000,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 317,
+        "order": 500,
         "id": 126,
         "name": "draw",
         "prevSize": 32,
@@ -2025,7 +2025,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 318,
+        "order": 501,
         "id": 127,
         "name": "draw-polygon",
         "prevSize": 32,
@@ -2053,7 +2053,7 @@
       "properties": {
         "name": "eraser",
         "id": 128,
-        "order": 319,
+        "order": 502,
         "prevSize": 32,
         "code": 57365
       },
@@ -2076,7 +2076,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 320,
+        "order": 503,
         "id": 129,
         "prevSize": 32,
         "code": 57376,
@@ -2106,7 +2106,7 @@
         "ligatures": "compass, direction",
         "name": "compass",
         "id": 130,
-        "order": 321,
+        "order": 504,
         "prevSize": 32,
         "code": 57392
       },
@@ -2130,7 +2130,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 322,
+        "order": 505,
         "id": 150,
         "name": "compass2",
         "prevSize": 32,
@@ -2159,7 +2159,7 @@
         "ligatures": "stack, layers",
         "name": "stack",
         "id": 131,
-        "order": 323,
+        "order": 506,
         "prevSize": 32,
         "code": 57408
       },
@@ -2183,7 +2183,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 324,
+        "order": 507,
         "id": 132,
         "name": "snap",
         "prevSize": 32,
@@ -2214,7 +2214,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 325,
+        "order": 508,
         "id": 133,
         "name": "snap1",
         "prevSize": 32,
@@ -2246,7 +2246,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 326,
+        "order": 509,
         "id": 134,
         "name": "merge",
         "prevSize": 32,
@@ -2276,7 +2276,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 327,
+        "order": 510,
         "id": 135,
         "name": "division",
         "prevSize": 32,
@@ -2304,7 +2304,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 328,
+        "order": 511,
         "id": 136,
         "name": "add_ring",
         "prevSize": 32,
@@ -2332,7 +2332,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 329,
+        "order": 512,
         "id": 137,
         "name": "add_part",
         "prevSize": 32,
@@ -2366,7 +2366,7 @@
         "ligatures": "cog, gear",
         "name": "config",
         "id": 138,
-        "order": 330,
+        "order": 513,
         "prevSize": 32,
         "code": 59797
       },
@@ -2389,7 +2389,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 331,
+        "order": 514,
         "id": 139,
         "name": "view_topology_report",
         "prevSize": 32,
@@ -2429,7 +2429,7 @@
         "ligatures": "equalizer2, sliders2",
         "name": "parameter",
         "id": 140,
-        "order": 332,
+        "order": 515,
         "prevSize": 32,
         "code": 59798
       },
@@ -2452,7 +2452,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 333,
+        "order": 516,
         "id": 143,
         "prevSize": 32,
         "code": 59680,
@@ -2477,7 +2477,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 334,
+        "order": 517,
         "id": 144,
         "prevSize": 32,
         "code": 59682,
@@ -2486,6 +2486,37 @@
       "setIdx": 1,
       "setId": 1,
       "iconIdx": 86
+    },
+    {
+      "icon": {
+        "paths": [
+          "M704 1024h320l-256-1024h-192l32 256h-192l32-256h-192l-256 1024h320l32-256h320l32 256zM368 640l32-256h224l32 256h-288z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "road",
+          "asphalt",
+          "travel"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 518,
+        "id": 169,
+        "prevSize": 32,
+        "name": "road",
+        "code": 59702
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 87
     },
     {
       "icon": {
@@ -2502,7 +2533,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 335,
+        "order": 519,
         "id": 145,
         "name": "physical-planning",
         "prevSize": 32,
@@ -2510,7 +2541,7 @@
       },
       "setIdx": 1,
       "setId": 1,
-      "iconIdx": 87
+      "iconIdx": 88
     }
   ],
   "height": 1024,
