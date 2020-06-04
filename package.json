@@ -36,7 +36,6 @@
      *
      *    "toolkit": "classic",
      */
-    "toolkit": "classic",
 
      /**
       * The author of the package.
@@ -44,7 +43,7 @@
       * Required only if you are distributing this package through a Sencha Cmd repository,
       * in which case it should match the name you assign to your local package repository.
       */
-    "creator": "Geofit",
+    "creator": "GEOFIT",
 
     /**
      * A summarized description of this package.
@@ -78,10 +77,14 @@
      */
     "format": "1",
 
+    "properties": {
+        "skip.slice": 1
+    },
+
     /**
      * Additional resources used during theme slicing operations
      */
-    "slicer": null,
+    /*"slicer": null,*/
 
     /**
      * Controls the output directory.
