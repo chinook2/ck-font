@@ -14,8 +14,8 @@
     font: normal normal normal 14px/1 CkFont18;
     font-size: 24px;
     text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0)
 }
 .ckfont-lg {
@@ -191,8 +191,8 @@
 }
 .ck-info2:before {
   content: "\f129";
-  /* Align "i" with font-size 24px */
-  padding-left: 8px;
+  /* Align "i" with font-size 24px 
+  padding-left: 8px;*/
 }
 .ck-home:before {
   content: "\e90d";
@@ -320,8 +320,8 @@
 
 
 /*
- * Add for InnoLa
- */
+ * Add for Hubim
+ 
 .x-ckfont:before {
     font-family: "CkFont18"
 }
@@ -341,4 +341,4 @@
     background-size: 15px;
     background-repeat: no-repeat
 }
-
+*/
