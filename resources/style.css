@@ -320,8 +320,8 @@
 
 
 /*
- * Add for Hubim
- 
+ * Todo use standard font icons
+ */
 .x-ckfont:before {
     font-family: "CkFont18"
 }
@@ -341,4 +341,4 @@
     background-size: 15px;
     background-repeat: no-repeat
 }
-*/
+
