@@ -1,41 +1,52 @@
 @font-face {
-  font-family: 'CkFont18';
-  src:  url('fonts/CkFont18.eot?9zgjy2');
-  src:  url('fonts/CkFont18.eot?9zgjy2#iefix') format('embedded-opentype'),
-    url('fonts/CkFont18.ttf?9zgjy2') format('truetype'),
-    url('fonts/CkFont18.woff?9zgjy2') format('woff'),
-    url('fonts/CkFont18.svg?9zgjy2#CkFont18') format('svg');
+  font-family: 'CkFont19';
+  src:  url('fonts/CkFont19.eot?u21fu2');
+  src:  url('fonts/CkFont19.eot?u21fu2#iefix') format('embedded-opentype'),
+    url('fonts/CkFont19.ttf?u21fu2') format('truetype'),
+    url('fonts/CkFont19.woff?u21fu2') format('woff'),
+    url('fonts/CkFont19.svg?u21fu2#CkFont19') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
-.ckfont {
-    display: inline-block;
-    font: normal normal normal 14px/1 CkFont18;
-    font-size: 24px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0)
-}
-.ckfont-lg {
-    font-size: 1.333em;
-    line-height: .75em;
-    vertical-align: -15%
-}
-.ckfont-2x {
-    font-size: 2em
-}
-.ckfont-3x {
-    font-size: 3em
-}
-.ckfont-4x {
-    font-size: 4em
-}
-.ckfont-5x {
-    font-size: 5em
+[class^="ck-"], [class*=" ck-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CkFont19' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-flow-line:before {
+  content: "\e937";
+}
+.ck-format_color_text:before {
+  content: "\e939";
+}
+.ck-circle-compass:before {
+  content: "\e93a";
+}
+.ck-circle:before {
+  content: "\e93b";
+}
 .ck-plus:before {
   content: "\ea0a";
 }
@@ -191,8 +202,6 @@
 }
 .ck-info2:before {
   content: "\f129";
-  /* Align "i" with font-size 24px 
-  padding-left: 8px;*/
 }
 .ck-home:before {
   content: "\e90d";
@@ -317,28 +326,3 @@
 .ck-physical-planning:before {
   content: "\e923";
 }
-
-
-/*
- * Add for Hubim
- 
-.x-ckfont:before {
-    font-family: "CkFont18"
-}
-
-.ckZoom {
-    background-image: url("img/zoom-flip.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckClose {
-    background-image: url("img/close.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-.ckEdit {
-    background-image: url("img/edit.png");
-    background-size: 15px;
-    background-repeat: no-repeat
-}
-*/

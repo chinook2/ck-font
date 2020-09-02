@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont18;
+$ck-font-name: CkFont19;
 
 // FONT PATH
 // -------------------------
@@ -55,6 +55,18 @@ $ck-font-name: CkFont18;
 
 // Icon Glyph
 // -------------------------
+.ck-flow-line:before {
+  content: "\e937";
+}
+.ck-format_color_text:before {
+  content: "\e939";
+}
+.ck-circle-compass:before {
+  content: "\e93a";
+}
+.ck-circle:before {
+  content: "\e93b";
+}
 .ck-plus:before {
   content: "\ea0a";
 }
@@ -210,8 +222,6 @@ $ck-font-name: CkFont18;
 }
 .ck-info2:before {
   content: "\f129";
-  /* Align "i" with font-size 24px 
-  padding-left: 8px;*/
 }
 .ck-home:before {
   content: "\e90d";
