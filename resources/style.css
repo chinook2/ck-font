@@ -326,3 +326,28 @@
 .ck-physical-planning:before {
   content: "\e923";
 }
+
+
+/*
+ * Todo use standard font icons
+ */
+.x-ckfont:before {
+    font-family: "CkFont18"
+}
+
+.ckZoom {
+    background-image: url("img/zoom-flip.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckClose {
+    background-image: url("img/close.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+.ckEdit {
+    background-image: url("img/edit.png");
+    background-size: 15px;
+    background-repeat: no-repeat
+}
+
