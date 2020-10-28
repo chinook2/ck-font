@@ -11,7 +11,7 @@
 
 $ck-font-path: 'ck-font/fonts' ;
 // get-resource-path('fonts');
-$ck-font-name: CkFont19;
+$ck-font-name: CkFont20;
 
 // FONT PATH
 // -------------------------
@@ -345,6 +345,24 @@ $ck-font-name: CkFont19;
 }
 .ck-physical-planning:before {
   content: "\e923";
+}
+.ck-select_polygon:before {
+  content: "\e93e";
+}
+.ck-warning:before {
+  content: "\e93c";
+}
+.ck-issues_check:before {
+  content: "\e93d";
+}
+.ck-select_polygon1:before {
+  content: "\e923";
+}
+.ck-send:before {
+  content: "\e93f";
+}
+.ck-issue:before {
+  content: "\e940";
 }
 // -------------------------
 
