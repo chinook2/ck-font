@@ -80,3 +80,7 @@
   content: "\e902";
 }
 
+.ck-search:before{
+	content:"\f2d5";
+}
+
