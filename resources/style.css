@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'CkFont20';
-  src:  url('fonts/CkFont20.eot?jqtkw');
-  src:  url('fonts/CkFont20.eot?jqtkw#iefix') format('embedded-opentype'),
-    url('fonts/CkFont20.ttf?jqtkw') format('truetype'),
-    url('fonts/CkFont20.woff?jqtkw') format('woff'),
-    url('fonts/CkFont20.svg?jqtkw#CkFont20') format('svg');
+  font-family: 'CkFont19';
+  src:  url('fonts/CkFont19.eot?jqtkw');
+  src:  url('fonts/CkFont19.eot?jqtkw#iefix') format('embedded-opentype'),
+    url('fonts/CkFont19.ttf?jqtkw') format('truetype'),
+    url('fonts/CkFont19.woff?jqtkw') format('woff'),
+    url('fonts/CkFont19.svg?jqtkw#CkFont19') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="ck-"], [class*=" ck-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CkFont20' !important;
+  font-family: 'CkFont19' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -195,6 +195,9 @@
   content: "\e931";
 }
 .ck-file-shp:before {
+  content: "\e942";
+}
+.ck-file-shp-copy:before {
   content: "\e932";
 }
 .ck-file-cad:before {
