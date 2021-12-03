@@ -25,6 +25,16 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'floppy-disk': '&#xe962;',
+            'save2': '&#xe962;',
+            'cogs': '&#xe997;',
+            'gears': '&#xe997;',
+            'play3': '&#xea1c;',
+            'player8': '&#xea1c;',
+            'pause2': '&#xea1d;',
+            'player9': '&#xea1d;',
+            'stop2': '&#xea1e;',
+            'player10': '&#xea1e;',
             'plus': '&#xea0a;',
             'add': '&#xea0a;',
             'minus': '&#xea0b;',

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont19';
-  src:  url('fonts/CkFont19.eot?jqtkw');
-  src:  url('fonts/CkFont19.eot?jqtkw#iefix') format('embedded-opentype'),
-    url('fonts/CkFont19.ttf?jqtkw') format('truetype'),
-    url('fonts/CkFont19.woff?jqtkw') format('woff'),
-    url('fonts/CkFont19.svg?jqtkw#CkFont19') format('svg');
+  src:  url('fonts/CkFont19.eot?4yb19t');
+  src:  url('fonts/CkFont19.eot?4yb19t#iefix') format('embedded-opentype'),
+    url('fonts/CkFont19.ttf?4yb19t') format('truetype'),
+    url('fonts/CkFont19.woff?4yb19t') format('woff'),
+    url('fonts/CkFont19.svg?4yb19t#CkFont19') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,35 +35,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ck-select_polygon:before {
-  content: "\e93e";
+.ck-floppy-disk:before {
+  content: "\e962";
 }
-.ck-warning:before {
-  content: "\e93c";
+.ck-cogs:before {
+  content: "\e997";
 }
-.ck-format_color_text:before {
-  content: "\e939";
+.ck-play3:before {
+  content: "\ea1c";
 }
-.ck-issues_check:before {
-  content: "\e93d";
+.ck-pause2:before {
+  content: "\ea1d";
 }
-.ck-select_polygon1:before {
-  content: "\e941";
-}
-.ck-send:before {
-  content: "\e93f";
-}
-.ck-issue:before {
-  content: "\e940";
-}
-.ck-circle-compass:before {
-  content: "\e93a";
-}
-.ck-circle:before {
-  content: "\e93b";
-}
-.ck-flow-line:before {
-  content: "\e937";
+.ck-stop2:before {
+  content: "\ea1e";
 }
 .ck-plus:before {
   content: "\ea0a";
@@ -196,9 +181,6 @@
 }
 .ck-file-shp:before {
   content: "\e942";
-}
-.ck-file-shp-copy:before {
-  content: "\e932";
 }
 .ck-file-cad:before {
   content: "\e92f";
@@ -345,5 +327,41 @@
   content: "\e936";
 }
 .ck-physical-planning:before {
+  content: "\e943";
+}
+.ck-sort-numerically:before {
   content: "\e923";
+}
+.ck-file-shp-copy:before {
+  content: "\e932";
+}
+.ck-issues_check:before {
+  content: "\e93d";
+}
+.ck-select_polygon1:before {
+  content: "\e941";
+}
+.ck-send:before {
+  content: "\e93f";
+}
+.ck-issue:before {
+  content: "\e940";
+}
+.ck-circle-compass:before {
+  content: "\e93a";
+}
+.ck-circle:before {
+  content: "\e93b";
+}
+.ck-select_polygon:before {
+  content: "\e93e";
+}
+.ck-warning:before {
+  content: "\e93c";
+}
+.ck-format_color_text:before {
+  content: "\e939";
+}
+.ck-flow-line:before {
+  content: "\e937";
 }
