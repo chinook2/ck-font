@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont19';
-  src:  url('fonts/CkFont19.eot?gb5m1q');
-  src:  url('fonts/CkFont19.eot?gb5m1q#iefix') format('embedded-opentype'),
-    url('fonts/CkFont19.ttf?gb5m1q') format('truetype'),
-    url('fonts/CkFont19.woff?gb5m1q') format('woff'),
-    url('fonts/CkFont19.svg?gb5m1q#CkFont19') format('svg');
+  src:  url('fonts/CkFont19.eot?afup3v');
+  src:  url('fonts/CkFont19.eot?afup3v#iefix') format('embedded-opentype'),
+    url('fonts/CkFont19.ttf?afup3v') format('truetype'),
+    url('fonts/CkFont19.woff?afup3v') format('woff'),
+    url('fonts/CkFont19.svg?afup3v#CkFont19') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,6 +35,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-clear:before {
+  content: "\e945";
+}
+.ck-select_polygon:before {
+  content: "\e93e";
+}
+.ck-warning:before {
+  content: "\e93c";
+}
+.ck-format_color_text:before {
+  content: "\e939";
+}
 .ck-calculator:before {
   content: "\e944";
 }
@@ -355,15 +367,6 @@
 }
 .ck-circle:before {
   content: "\e93b";
-}
-.ck-select_polygon:before {
-  content: "\e93e";
-}
-.ck-warning:before {
-  content: "\e93c";
-}
-.ck-format_color_text:before {
-  content: "\e939";
 }
 .ck-flow-line:before {
   content: "\e937";

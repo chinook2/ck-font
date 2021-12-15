@@ -367,26 +367,29 @@ $ck-font-name: CkFont20;
 .ck-issue:before {
   content: "\e940";
 }
-.ck-sort-numerically {
+.ck-sort-numerically:before {
   content: "\e923";
 }
-.ck-floppy-disk {
+.ck-floppy-disk:before {
   content: "\e962";
 }
-.ck-cogs {
+.ck-cogs:before {
   content: "\e997";
 }
-.ck-play3 {
+.ck-play3:before {
   content: "\ea1c";
 }
-.ck-pause {
+.ck-pause:before {
   content: "\ea1d";
 }
-.ck-stop2 {
+.ck-stop2:before {
   content: "\ea1e";
 }
-.ck-calculator {
+.ck-calculator:before {
   content: "\e944",
+}
+.ck-clear:before {
+  content: "\e945",
 }
 // -------------------------
 
