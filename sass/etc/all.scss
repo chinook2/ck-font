@@ -391,6 +391,15 @@ $ck-font-name: CkFont20;
 .ck-clear:before {
   content: "\e945",
 }
+.ck-point:before {
+  content: "\e946",
+}
+.ck-polyline-pt:before {
+  content: "\e947",
+}
+.ck-polygon-pt:before {
+  content: "\e948",
+}
 // -------------------------
 
 
