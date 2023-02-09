@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CkFont19';
-  src:  url('fonts/CkFont19.eot?l2iaz1');
-  src:  url('fonts/CkFont19.eot?l2iaz1#iefix') format('embedded-opentype'),
-    url('fonts/CkFont19.ttf?l2iaz1') format('truetype'),
-    url('fonts/CkFont19.woff?l2iaz1') format('woff'),
-    url('fonts/CkFont19.svg?l2iaz1#CkFont19') format('svg');
+  src:  url('fonts/CkFont19.eot?rmcnxf');
+  src:  url('fonts/CkFont19.eot?rmcnxf#iefix') format('embedded-opentype'),
+    url('fonts/CkFont19.ttf?rmcnxf') format('truetype'),
+    url('fonts/CkFont19.woff?rmcnxf') format('woff'),
+    url('fonts/CkFont19.svg?rmcnxf#CkFont19') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,6 +35,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ck-document-file-dxf:before {
+  content: "\e92f";
+}
+.ck-sort-numerically:before {
+  content: "\e923";
+}
+.ck-file-shp-copy:before {
+  content: "\e932";
+}
+.ck-issues_check:before {
+  content: "\e93d";
+}
+.ck-select_polygon1:before {
+  content: "\e941";
+}
+.ck-send:before {
+  content: "\e93f";
+}
+.ck-issue:before {
+  content: "\e940";
+}
+.ck-circle-compass:before {
+  content: "\e93a";
+}
+.ck-circle:before {
+  content: "\e93b";
+}
+.ck-clear:before {
+  content: "\e945";
+}
+.ck-select_polygon:before {
+  content: "\e93e";
+}
+.ck-warning:before {
+  content: "\e93c";
+}
+.ck-format_color_text:before {
+  content: "\e939";
+}
+.ck-flow-line:before {
+  content: "\e937";
+}
 .ck-point:before {
   content: "\e946";
 }
@@ -192,7 +234,7 @@
   content: "\e942";
 }
 .ck-file-cad:before {
-  content: "\e92f";
+  content: "\e949";
 }
 .ck-file-sef:before {
   content: "\e930";
@@ -338,45 +380,6 @@
 .ck-physical-planning:before {
   content: "\e943";
 }
-.ck-clear:before {
-  content: "\e945";
-}
-.ck-select_polygon:before {
-  content: "\e93e";
-}
-.ck-warning:before {
-  content: "\e93c";
-}
-.ck-format_color_text:before {
-  content: "\e939";
-}
 .ck-calculator:before {
   content: "\e944";
-}
-.ck-sort-numerically:before {
-  content: "\e923";
-}
-.ck-file-shp-copy:before {
-  content: "\e932";
-}
-.ck-issues_check:before {
-  content: "\e93d";
-}
-.ck-select_polygon1:before {
-  content: "\e941";
-}
-.ck-send:before {
-  content: "\e93f";
-}
-.ck-issue:before {
-  content: "\e940";
-}
-.ck-circle-compass:before {
-  content: "\e93a";
-}
-.ck-circle:before {
-  content: "\e93b";
-}
-.ck-flow-line:before {
-  content: "\e937";
 }
