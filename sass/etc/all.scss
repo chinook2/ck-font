@@ -173,7 +173,10 @@ $ck-font-name: CkFont18;
   content: "\e90a";
 }
 .ck-file-picture:before {
-  content: "\e928";
+  content: "\e939";
+}
+.ck-file-pictures:before {
+  content: "\e937";
 }
 .ck-file-zip:before {
   content: "\e92e";
@@ -335,6 +338,9 @@ $ck-font-name: CkFont18;
 }
 .ck-physical-planning:before {
   content: "\e923";
+}
+.ck-tv:before {
+  content: "\e928";
 }
 // -------------------------
 
