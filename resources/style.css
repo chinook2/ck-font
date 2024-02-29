@@ -1,339 +1,451 @@
 @font-face {
-  font-family: 'CkFont18';
-  src:  url('fonts/CkFont18.eot?mdoxp2');
-  src:  url('fonts/CkFont18.eot?mdoxp2#iefix') format('embedded-opentype'),
-    url('fonts/CkFont18.ttf?mdoxp2') format('truetype'),
-    url('fonts/CkFont18.woff?mdoxp2') format('woff'),
-    url('fonts/CkFont18.svg?mdoxp2#CkFont18') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'CkFont18';
+    src: url('fonts/CkFont18.eot?mdoxp2');
+    src: url('fonts/CkFont18.eot?mdoxp2#iefix') format('embedded-opentype'),
+        url('fonts/CkFont18.ttf?mdoxp2') format('truetype'),
+        url('fonts/CkFont18.woff?mdoxp2') format('woff'),
+        url('fonts/CkFont18.svg?mdoxp2#CkFont18') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 .ckfont {
-  display: inline-block;
-  font: normal normal normal 14px/1 CkFont18;
-  font-size: 24px;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0)
+    display: inline-block;
+    font: normal normal normal 14px/1 CkFont18;
+    font-size: 24px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0)
 }
+
 .ckfont-lg {
-  font-size: 1.333em;
-  line-height: .75em;
-  vertical-align: -15%;
+    font-size: 1.333em;
+    line-height: .75em;
+    vertical-align: -15%;
 }
+
 .ckfont-2x {
-  font-size: 2em;
+    font-size: 2em;
 }
+
 .ckfont-3x {
-  font-size: 3em;
+    font-size: 3em;
 }
+
 .ckfont-4x {
-  font-size: 4em;
+    font-size: 4em;
 }
+
 .ckfont-5x {
-  font-size: 5em;
+    font-size: 5em;
 }
+
 .ck-television:before {
-  content: "\e928";
+    content: "\e928";
 }
+
 .ck-tv:before {
-  content: "\e928";
+    content: "\e928";
 }
+
 .ck-images:before {
-  content: "\e937";
+    content: "\e937";
 }
+
 .ck-pictures:before {
-  content: "\e937";
+    content: "\e937";
 }
+
 .ck-photos:before {
-  content: "\e937";
+    content: "\e937";
 }
+
 .ck-graphics:before {
-  content: "\e937";
+    content: "\e937";
 }
+
 .ck-plus:before {
-  content: "\ea0a";
+    content: "\ea0a";
 }
+
 .ck-minus:before {
-  content: "\ea0b";
+    content: "\ea0b";
 }
+
 .ck-cross:before {
-  content: "\ea0f";
+    content: "\ea0f";
 }
+
 .ck-checkmark:before {
-  content: "\ea10";
+    content: "\ea10";
 }
+
 .ck-blocked:before {
-  content: "\ea0e";
+    content: "\ea0e";
 }
+
 .ck-guide:before {
-  content: "\e924";
+    content: "\e924";
 }
+
 .ck-guide2:before {
-  content: "\e925";
+    content: "\e925";
 }
+
 .ck-map-marker:before {
-  content: "\e926";
+    content: "\e926";
 }
+
 .ck-map-marker2:before {
-  content: "\e927";
+    content: "\e927";
 }
+
 .ck-search:before {
-  content: "\e00e";
+    content: "\e00e";
 }
+
 .ck-zoom:before {
-  content: "\e005";
+    content: "\e005";
 }
+
 .ck-zoom-in:before {
-  content: "\e006";
+    content: "\e006";
 }
+
 .ck-zoom-out:before {
-  content: "\e008";
+    content: "\e008";
 }
+
 .ck-zoom-to:before {
-  content: "\e009";
+    content: "\e009";
 }
+
 .ck-zoom-to-point:before {
-  content: "\e00a";
+    content: "\e00a";
 }
+
 .ck-zoom-to-extent:before {
-  content: "\e00b";
+    content: "\e00b";
 }
+
 .ck-zoom-to-max-extent:before {
-  content: "\e00c";
+    content: "\e00c";
 }
+
 .ck-zoom-box:before {
-  content: "\e00d";
+    content: "\e00d";
 }
+
 .ck-enlarge:before {
-  content: "\e053";
+    content: "\e053";
 }
+
 .ck-shrink:before {
-  content: "\e054";
+    content: "\e054";
 }
+
 .ck-target:before {
-  content: "\e929";
+    content: "\e929";
 }
+
 .ck-crosshairs:before {
-  content: "\e91f";
+    content: "\e91f";
 }
+
 .ck-square:before {
-  content: "\ea53";
+    content: "\ea53";
 }
+
 .ck-edit:before {
-  content: "\e912";
+    content: "\e912";
 }
+
 .ck-form:before {
-  content: "\e92d";
+    content: "\e92d";
 }
+
 .ck-close:before {
-  content: "\e913";
+    content: "\e913";
 }
+
 .ck-remove:before {
-  content: "\e913";
+    content: "\e913";
 }
+
 .ck-right:before {
-  content: "\e90e";
+    content: "\e90e";
 }
+
 .ck-next:before {
-  content: "\e90e";
+    content: "\e90e";
 }
+
 .ck-redo:before {
-  content: "\e90f";
+    content: "\e90f";
 }
+
 .ck-left:before {
-  content: "\e910";
+    content: "\e910";
 }
+
 .ck-previous:before {
-  content: "\e910";
+    content: "\e910";
 }
+
 .ck-undo:before {
-  content: "\e911";
+    content: "\e911";
 }
+
 .ck-print:before {
-  content: "\e902";
+    content: "\e902";
 }
+
 .ck-street-view:before {
-  content: "\e903";
+    content: "\e903";
 }
+
 .ck-download:before {
-  content: "\e904";
+    content: "\e904";
 }
+
 .ck-archive:before {
-  content: "\e907";
+    content: "\e907";
 }
+
 .ck-file-code:before {
-  content: "\e92b";
+    content: "\e92b";
 }
+
 .ck-file-text:before {
-  content: "\e90a";
+    content: "\e90a";
 }
+
 .ck-file-picture:before {
-  content: "\e939";
+    content: "\e939";
 }
+
 .ck-file-zip:before {
-  content: "\e92e";
+    content: "\e92e";
 }
+
 .ck-file-empty:before {
-  content: "\e90b";
+    content: "\e90b";
 }
+
 .ck-file-gis:before {
-  content: "\e931";
+    content: "\e931";
 }
+
 .ck-file-shp:before {
-  content: "\e932";
+    content: "\e932";
 }
+
 .ck-file-cad:before {
-  content: "\e92f";
+    content: "\e92f";
 }
+
 .ck-file-sef:before {
-  content: "\e930";
+    content: "\e930";
 }
+
 .ck-file-raw:before {
-  content: "\e933";
+    content: "\e933";
 }
+
 .ck-file-xml:before {
-  content: "\e934";
+    content: "\e934";
 }
+
 .ck-file-csv:before {
-  content: "\e935";
+    content: "\e935";
 }
+
 .ck-info:before {
-  content: "\e90c";
+    content: "\e90c";
 }
+
 .ck-information:before {
-  content: "\e90c";
+    content: "\e90c";
 }
+
 .ck-info2:before {
-  content: "\f129";
-  /* Align "i" with font-size 24px */
-  padding-left: 8px;
+    content: "\f129";
+    /* Align "i" with font-size 24px */
+    padding-left: 8px;
 }
+
 .ck-home:before {
-  content: "\e90d";
+    content: "\e90d";
 }
+
 .ck-eye:before {
-  content: "\e901";
+    content: "\e901";
 }
+
 .ck-bearing-distance:before {
-  content: "\e914";
+    content: "\e914";
 }
+
 .ck-add_coordinates:before {
-  content: "\e900";
+    content: "\e900";
 }
+
 .ck-add_vertex:before {
-  content: "\e905";
+    content: "\e905";
 }
+
 .ck-move_parcel:before {
-  content: "\e91e";
+    content: "\e91e";
 }
+
 .ck-delete_parcel:before {
-  content: "\e906";
+    content: "\e906";
 }
+
 .ck-delete_vertex:before {
-  content: "\e908";
+    content: "\e908";
 }
+
 .ck-delete_working_area:before {
-  content: "\e909";
+    content: "\e909";
 }
+
 .ck-draw_working_area:before {
-  content: "\e919";
+    content: "\e919";
 }
+
 .ck-edit_parcel_forms:before {
-  content: "\e91a";
+    content: "\e91a";
 }
+
 .ck-import_csv:before {
-  content: "\e91b";
+    content: "\e91b";
 }
+
 .ck-import_xml:before {
-  content: "\e921";
+    content: "\e921";
 }
+
 .ck-selects:before {
-  content: "\e001";
+    content: "\e001";
 }
+
 .ck-select-box:before {
-  content: "\e002";
+    content: "\e002";
 }
+
 .ck-select-circle:before {
-  content: "\e003";
+    content: "\e003";
 }
+
 .ck-select-point:before {
-  content: "\e004";
+    content: "\e004";
 }
+
 .ck-measures:before {
-  content: "\e010";
+    content: "\e010";
 }
+
 .ck-measure-length:before {
-  content: "\e011";
+    content: "\e011";
 }
+
 .ck-measure-area:before {
-  content: "\e012";
+    content: "\e012";
 }
+
 .ck-measure-radius:before {
-  content: "\e013";
+    content: "\e013";
 }
+
 .ck-draw:before {
-  content: "\e916";
+    content: "\e916";
 }
+
 .ck-draw-polygon:before {
-  content: "\e917";
+    content: "\e917";
 }
+
 .ck-eraser:before {
-  content: "\e015";
+    content: "\e015";
 }
+
 .ck-gps:before {
-  content: "\e020";
+    content: "\e020";
 }
+
 .ck-compass:before {
-  content: "\e030";
+    content: "\e030";
 }
+
 .ck-compass2:before {
-  content: "\e92c";
+    content: "\e92c";
 }
+
 .ck-stack:before {
-  content: "\e040";
+    content: "\e040";
 }
+
 .ck-snap:before {
-  content: "\e007";
+    content: "\e007";
 }
+
 .ck-snap1:before {
-  content: "\e92a";
+    content: "\e92a";
 }
+
 .ck-merge:before {
-  content: "\e91c";
+    content: "\e91c";
 }
+
 .ck-division:before {
-  content: "\e91d";
+    content: "\e91d";
 }
+
 .ck-add_ring:before {
-  content: "\e915";
+    content: "\e915";
 }
+
 .ck-add_part:before {
-  content: "\e918";
+    content: "\e918";
 }
+
 .ck-config:before {
-  content: "\e995";
+    content: "\e995";
 }
+
 .ck-view_topology_report:before {
-  content: "\e938";
+    content: "\e938";
 }
+
 .ck-parameter:before {
-  content: "\e996";
+    content: "\e996";
 }
+
 .ck-toggle-on:before {
-  content: "\e920";
+    content: "\e920";
 }
+
 .ck-toggle-off:before {
-  content: "\e922";
+    content: "\e922";
 }
+
 .ck-road:before {
-  content: "\e936";
+    content: "\e936";
 }
+
 .ck-physical-planning:before {
-  content: "\e923";
+    content: "\e923";
+}
+
+.ck-chevron-right:before {
+    content: "\e93a";
+}
+
+.ck-chevron-left:before {
+    content: "\e93b";
 }
 
 
@@ -349,14 +461,15 @@
     background-size: 15px;
     background-repeat: no-repeat
 }
+
 .ckClose {
     background-image: url("img/close.png");
     background-size: 15px;
     background-repeat: no-repeat
 }
+
 .ckEdit {
     background-image: url("img/edit.png");
     background-size: 15px;
     background-repeat: no-repeat
 }
-
